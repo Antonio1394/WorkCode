@@ -1,9 +1,8 @@
-@include('layouts.partials.head')
+@include('partials.head')
 
 <body id="page-top">
-@include('layouts.partials.nav')
+@include('partials.nav')
 @yield('content')
-
     <section id="contact">
         <div class="container">
             <div class="row">
@@ -25,5 +24,7 @@
     </section>
    
 </body>
+
+@include('partials.script')
 
 </html>
