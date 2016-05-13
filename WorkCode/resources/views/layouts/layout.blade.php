@@ -1,13 +1,11 @@
 @include('partials.head')
 
-<body id="page-top">
-@include('partials.nav')
-@yield('content')
-@include('partials.footer')
-
-   
+<body>
+    @include('partials.nav')
+    @yield('content')
+    @include('partials.footer')
 </body>
 
-@include('partials.script')
+    @include('partials.script')
 
 </html>

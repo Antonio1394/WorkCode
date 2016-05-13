@@ -1,33 +1,46 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-
+<html lang="es">
+  <head>
+    <!-- Basic Page Needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--[if IE]><meta http-equiv="x-ua-compatible" content="IE=9" /><![endif]-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <title>Creative - Start Bootstrap Theme</title>
-
-    <!-- Bootstrap Core CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
-    <!-- Custom Fonts -->
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
-    {!!Html::style("font-awesome/css/font-awesome.min.css")!!}
+    <title>Legislación</title>
     
-    <!-- Plugin CSS -->
-    {!!Html::style("css/animate.min.css")!!}
-    {!!Html::style("css/creative.css")!!}
-    <!-- Custom CSS -->
-    {!!Html::style("css/creative.css")!!}
+    <!-- Favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" href="img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- Bootstrap -->
+    {!!Html::style("css/bootstrap.css")!!}
+    {!!Html::style("fonts/font-awesome/css/font-awesome.css")!!}
+    
+        <!-- Slider
+    ================================================== -->
+    {!!Html::style("css/owl.carousel.css")!!}
+    {!!Html::style("css/owl.theme.css")!!}
+    
+    <!-- Stylesheet
+    ================================================== -->
+    {!!Html::style("css/style.css")!!}
+    {!!Html::style("css/responsive.css")!!}
+    
+    
+
+    {!!Html::script("js/modernizr.custom.js")!!}
+
+   
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
-</head>
+  </head>
+
+
