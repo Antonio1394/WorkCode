@@ -1,9 +1,12 @@
 <div id="tf-home" class="text-center">
         <div class="overlay">
             <div class="content">
-                <h1>Welcome on <strong><span class="color">Legislación</span></strong></h1>
-                <p class="lead">We are a digital agency with <strong>years of experience</strong> and with <strong>extraordinary people</strong></p>
+                <h1>Muchas veces las <strong><span class="color">leyes </span></strong></h1>
+                <p class="lead">son como las telarañas: <strong>los insectos pequeños quedan prendidos en ellas;<br> </strong>los grandes <strong>la rompen</strong></p>
                 <a href="#tf-about" class="fa fa-angle-down page-scroll"></a>
             </div>
         </div>
     </div>
+
+
+        
