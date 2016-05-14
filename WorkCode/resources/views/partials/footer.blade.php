@@ -1,7 +1,7 @@
 <nav id="footer">
         <div class="container">
             <div class="pull-left fnav">
-                <p>ALL RIGHTS RESERVED. COPYRIGHT © created with</p>
+                <p>ALL RIGHTS RESERVED. COPYRIGHT © created with <a href="" class="fa fa-heart"></a></p>
             </div>
             <div class="pull-right fnav">
                 <ul class="footer-social">
