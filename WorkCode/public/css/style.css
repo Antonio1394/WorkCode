@@ -79,6 +79,12 @@ ul, ol{
 	background-color: rgba(248, 248, 248, 0);
 	border-color: rgba(231, 231, 231, 0);
 }
+
+#tf-menu2.navbar-default {
+	background-color: rgba(248, 248, 248, 0);
+	border-color: rgba(231, 231, 231, 0);
+}
+
 #tf-menu a.navbar-brand {
 text-transform: uppercase;
 font-size: 22px;
@@ -275,7 +281,7 @@ img.img-circle.team-img {
 }
 
 /* Services Section */
-#tf-services{
+#Trabajo{
 	padding: 80px 0;
 }
 
@@ -283,7 +289,7 @@ img.img-circle.team-img {
 	margin-top: 40px;
 }
 
-#tf-services i.fa {
+#Trabajo i.fa {
 	font-size: 40px;
 	border: 4px solid #FCAC45;
 	width: 100px;
@@ -294,12 +300,12 @@ img.img-circle.team-img {
 	transition: all 0.5s;
 }
 
-#tf-services i.fa.fa-mobile{
+#Trabajo i.fa.fa-mobile{
 	font-size: 50px;
 	padding: 20px 25px;
 }
 
-#tf-services .service:hover>i.fa{
+#Trabajo .service:hover>i.fa{
 	background: #FCAC45;
 	color: #ffffff;
 }
