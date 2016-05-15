@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('home');
 });
+
+//Ruta Codigo Trabajo
+Route::get('Trabajo', 'TrabajoController@index');
+
