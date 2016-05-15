@@ -11,10 +11,10 @@
 |
 */
 
-Route::get('/', function () {
-    return view('home');
-});
+//Route::get('/', function () {
+  //  return view('home');
+//});
 
 //Ruta Codigo Trabajo
-Route::get('Trabajo', 'TrabajoController@index');
+Route::get('/', 'TrabajoController@index');
 
