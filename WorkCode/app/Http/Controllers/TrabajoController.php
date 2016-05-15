@@ -16,7 +16,7 @@ class TrabajoController extends Controller
      */
     public function index()
     {
-        $data=ArticleWork::get()->all();
+        $data=ArticleWork::get();
         return $data;
         //return view('trabajo.list');
     }
