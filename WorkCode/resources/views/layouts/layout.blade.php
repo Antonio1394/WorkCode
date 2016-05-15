@@ -2,8 +2,7 @@
 
 <body>
     @include('partials.nav')
-    @include('partials.home')
-
+   
     @yield('content')
     @include('partials.footer')
 </body>
