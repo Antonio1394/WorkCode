@@ -19,12 +19,14 @@
             </div>
             <div class="space"></div>
             <div class="row">
+                @foreach($data as $article)
                 <div class="col-md-3 col-sm-6 service">
-                    <i class="fa fa-desktop"></i>
-                    <h4><strong>Web design</strong></h4>
-                    <p>The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.</p>
-                </div>
+                    <i class="fa fa-institution"></i>
+                    <h4><strong>{{$article->number }}</strong></h4>
+                    <p>{{ substr($article->description, 0, 100) }}...</p>
 
+                </div>
+                @endforeach
                 
             </div>
         </div>
