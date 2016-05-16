@@ -27,6 +27,18 @@ class WorkTableSeeder extends Seeder
 									el que se encargue por contrato, de trabajos que<br>
 									ejecute con equipos o capitales propios.',
                		'comment'=>''),
+
+             array( 'number'=>'Articulo 7',
+             		'description'=>'Se prohíbe en las zonas de trabajo
+									la venta o introducción de bebidas o drogas
+									embriagantes o estupefacientes, las lides de gallos,
+									los juegos de azar y el ejercicio de la prostitución.
+									Es entendido que ésta prohibición se limita a un
+									radio de tres kilómetros alrededor de cada centro de
+									trabajo establecido fuera de las poblaciones, ya que
+									en cuanto a éstas ultimas rigen las disposiciones de
+									las leyes y reglamentos respectivos.',
+               		'comment'=>'Medidas del protección del Salario'),
             
           ));
     }
