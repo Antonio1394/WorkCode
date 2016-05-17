@@ -39,6 +39,19 @@ class WorkTableSeeder extends Seeder
 									en cuanto a éstas ultimas rigen las disposiciones de
 									las leyes y reglamentos respectivos.',
                		'comment'=>'Medidas del protección del Salario'),
+
+
+             array( 'number'=>'Articulo 12',
+             		'description'=>'Son nulos ipso jure y no obligan a los
+									contratantes, todos los actos o estipulaciones que
+									impliquen renuncia, disminución o tergiversación de
+									los derechos que la Constitución de la República,
+									el presente Código, sus reglamentos y las demás
+									leyes y disposiciones de trabajo o de previsión social
+									otorguen a los trabajadores, aunque se expresen
+									en un reglamento interior de trabajo, un contrato de
+									trabajo u otro pacto o convenio cualquiera.',
+               		'comment'=>'Nulidad del Contrato Individual del trabajo <br>ipso jure: Nulidad en todo derecho'),
             
           ));
     }
