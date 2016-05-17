@@ -52,7 +52,30 @@ class WorkTableSeeder extends Seeder
 									en un reglamento interior de trabajo, un contrato de
 									trabajo u otro pacto o convenio cualquiera.',
                		'comment'=>'Nulidad del Contrato Individual del trabajo <br>ipso jure: Nulidad en todo derecho'),
+
+					array( 'number'=>'Articulo 15',
+             		'description'=>'Los casos no previstos por este
+									Código, por sus reglamentos o por las demás leyes
+									relativas al trabajo, se deben resolver, en primer
+									término, de acuerdo con los principios del derecho
+									de trabajo; en segundo lugar, de acuerdo con la
+									equidad, la costumbre o el uso locales, en armonía
+									con dichos principios; y por último, de acuerdo con
+									los principios y leyes de derecho común.',
+               		'comment'=>'Como se integra el sistema de representación de las normas laborales: de acuerdo a los principios.'),             
             
+
+            array( 'number'=>'Articulo 18',
+             		'description'=>'Contrato individual de trabajo,
+									sea cual fuere su denominación, es el vínculo
+									económico-jurídico mediante el que una persona
+									(trabajador), queda obligada a prestar a otra
+									(patrono), sus servicios personales o a ejecutarle
+									una obra, personalmente, bajo la dependencia
+									continuada y dirección inmediata o delegada de
+									esta última, a cambio de una retribución de cualquier
+									clase o forma.',
+               		'comment'=>'Contrato de Trabajo.'),  
           ));
     }
 }
