@@ -76,6 +76,15 @@ class WorkTableSeeder extends Seeder
 									esta última, a cambio de una retribución de cualquier
 									clase o forma.',
                		'comment'=>'Contrato de Trabajo.'),  
+
+            array( 'number'=>'Articulo 19',
+             		'description'=>'Primer Parrafo:Para que el contrato individual de
+									trabajo exista y se perfeccione, basta con que se
+									inicie la relación de trabajo, que es el hecho mismo
+									de la prestación de los servicios o de la ejecución
+									de la obra en las condiciones que determina el
+									Artículo precedente.',
+               		'comment'=>'Relacion de Trabajo.'),  
           ));
     }
 }
