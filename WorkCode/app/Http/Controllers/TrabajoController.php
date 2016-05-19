@@ -47,11 +47,11 @@ class TrabajoController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show($code)
     {
-        $code=ArticleWork::findOrFail($id);
-        return $code;
-        //return view('trabajo.detail', compact('code'));
+        $data=ArticleWork::findOrFail($code);
+        //return $data;
+        return view('trabajo.detail', compact('data'));
     }
 
     /**

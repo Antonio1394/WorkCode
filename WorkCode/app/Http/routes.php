@@ -17,5 +17,5 @@
 
 //Ruta Codigo Trabajo
 Route::get('/', 'TrabajoController@index');
-Route::get('detail/{id}','TrabajoController@show');
+Route::get('detail/{code}','TrabajoController@show');
 
