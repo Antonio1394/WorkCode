@@ -53,7 +53,7 @@ class WorkTableSeeder extends Seeder
 									trabajo u otro pacto o convenio cualquiera.',
                		'comment'=>'Nulidad del Contrato Individual del trabajo <br>ipso jure: Nulidad en todo derecho'),
 
-					array( 'number'=>'Articulo 15',
+			array( 'number'=>'Articulo 15',
              		'description'=>'Los casos no previstos por este
 									Código, por sus reglamentos o por las demás leyes
 									relativas al trabajo, se deben resolver, en primer
@@ -107,7 +107,31 @@ class WorkTableSeeder extends Seeder
 									retribuciones a que esté obligado el patrono.',
 																		
                		'comment'=>'<strong>Primer Parrafo: </strong> Efectos Individual del trabajo.
-               					<strong>Cuarto Parrafo: </strong>  Elementos de las condiciones del 											trabajo'),  
+               					<strong>Cuarto Parrafo: </strong>  Elementos de las condiciones del 											trabajo'), 
+
+
+
+           	array( 'number'=>'Articulo 22',
+             		'description'=>'En todo contrato individual de
+									trabajo deben entenderse incluidos por lo menos,
+									las garantías y derechos que otorguen a los
+									trabajadores la Constitución, el presente Código,
+									sus reglamentos y las demás leyes de trabajo o de
+									previsión social.',
+																		
+               		'comment'=>'Principios de Derechos mínimos'),
+
+
+            array( 'number'=>'Articulo 23',
+             		'description'=>'La sustitución del patrono no
+									afecta los contratos de trabajo existentes, en
+									perjuicio del trabajador. El patrono sustituido queda
+									solidariamente obligado con el nuevo patrono por
+									las obligaciones derivadas de los contratos o de las
+									disposiciones legales, nacidas antes de la fecha de
+									la sustitución y hasta por el término de seis meses.',
+																		
+               		'comment'=>'Sustitución total del patrono'),   
           ));
     }
 }
