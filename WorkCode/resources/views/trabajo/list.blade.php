@@ -23,15 +23,14 @@
                 <div class="col-md-3 col-sm-6 service">
                     <i class="fa fa-institution"></i>
                     <h4><strong>{{$article->number }}</strong></h4>
-                    <p>{{substr($article->description, 0, 100) }}...</p>
-                    <button type="button" name="edit" class="btn btn-info btn-sm loadModal" data-toggle='modal' data-target='#generalModal' data-url="users/{{ $article->id }}/edit" data-title="Actualizar Usuario">Editar</button>
+                    <p>{{substr($article->description, 0, 100) }}...<a href="{{ url('') }}">ver más</a></p>
+
                 </div>
                 @endforeach
                 
             </div>
         </div>
     </div>
-      @include('partials.modal')
 
     <!-- Clients Section
     ==========================================-->
