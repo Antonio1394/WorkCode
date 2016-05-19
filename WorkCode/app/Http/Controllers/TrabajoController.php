@@ -17,7 +17,6 @@ class TrabajoController extends Controller
     public function index()
     {
         $data=ArticleWork::get();
-        //return $data;
         return view('home',compact('data'));
     }
 
@@ -50,7 +49,9 @@ class TrabajoController extends Controller
      */
     public function show($id)
     {
-        //
+        $code=ArticleWork::findOrFail($id);
+        return $code;
+        //return view('trabajo.detail', compact('code'));
     }
 
     /**
