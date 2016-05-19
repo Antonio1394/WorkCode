@@ -85,6 +85,29 @@ class WorkTableSeeder extends Seeder
 									de la obra en las condiciones que determina el
 									Artículo precedente.',
                		'comment'=>'Relacion de Trabajo.'),  
+
+
+            array( 'number'=>'Articulo 20',
+             		'description'=>'El contrato individual de trabajo
+									obliga, no sólo a lo que se establece en él, sino:
+									a) A la observancia de las obligaciones y derechos
+									que este Código o los convenios internacionales
+									ratificados por Guatemala14, determinen para las
+									partes de la relación laboral, siempre, respecto
+									a estos últimos, cuando consignen beneficios
+									superiores para los trabajadores que los que este
+									Código crea; y
+									b) A las consecuencias que del propio contrato se
+									deriven según la buena fe, la equidad, el uso y
+									costumbres locales o la ley.
+									Son condiciones o elementos de la prestación de
+									los servicios o ejecución de una obra: la materia
+									u objeto; la forma o modo de su desempeño; el
+									tiempo de su realización; el lugar de ejecución y las
+									retribuciones a que esté obligado el patrono.',
+																		
+               		'comment'=>'<strong>Primer Parrafo: </strong> Efectos Individual del trabajo.
+               					<strong>Cuarto Parrafo: </strong>  Elementos de las condiciones del 											trabajo'),  
           ));
     }
 }
