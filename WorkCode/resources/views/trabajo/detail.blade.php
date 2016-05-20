@@ -13,7 +13,7 @@
                 </div>
                 <div class="row">
                     <div class="item">
-                        <p style="font-size: 150%">{{ $data->description }}</p>
+                        <p style="font-size: 150%">{!! $data->description !!}</p>
                  	</div> 
                 </div>
                 <div class="section-title center">

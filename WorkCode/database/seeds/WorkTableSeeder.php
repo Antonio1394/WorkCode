@@ -78,7 +78,7 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'Contrato de Trabajo.'),  
 
             array( 'number'=>'Articulo 19',
-             		'description'=>'Primer Parrafo:Para que el contrato individual de
+             		'description'=>'Primer Parrafo: Para que el contrato individual de
 									trabajo exista y se perfeccione, basta con que se
 									inicie la relación de trabajo, que es el hecho mismo
 									de la prestación de los servicios o de la ejecución
@@ -131,7 +131,36 @@ class WorkTableSeeder extends Seeder
 									disposiciones legales, nacidas antes de la fecha de
 									la sustitución y hasta por el término de seis meses.',
 																		
-               		'comment'=>'Sustitución total del patrono'),   
+               		'comment'=>'Sustitución total del patrono'),
+
+
+
+             array( 'number'=>'Articulo 25',
+             		'description'=>'El contrato individual de trabajo
+									puede ser:<br>
+									a) Por tiempo indefinido, cuando no se especifica
+									fecha para su terminación.<br>
+									b) A plazo fijo, cuando se especifica fecha para su
+									terminación o cuando se ha previsto el acaecimiento
+									de algún hecho o circunstancia como la conclusión
+									de una obra, que forzosamente ha de poner término
+									a la relación de trabajo. En este segundo caso, se
+									debe tomar en cuenta la actividad del trabajador en
+									sí mismo como objeto del contrato, y no el resultado
+									de la obra; y<br>
+									c) Para obra determinada, cuando se ajusta
+									globalmente o en forma alzada el precio de los
+									servicios del trabajador desde que se inician las
+									labores hasta que éstas concluyan, tomando
+									en cuenta el resultado del trabajo, o sea, la obra
+									realizada.<br>
+									Aunque el trabajador reciba anticipos a buena
+									cuenta de los trabajos ejecutados o por ejecutarse,
+									el contrato individual de trabajo debe entenderse
+									para obra determinada, siempre que se reúnan las
+									condiciones que indica el párrafo anterior.',
+																		
+               		'comment'=>'Clasificación de contratos de Trabajo'),   
           ));
     }
 }
