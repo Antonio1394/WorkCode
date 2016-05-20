@@ -216,7 +216,7 @@ ul.about-list li span{
 	border-top: 4px solid #fcac45;
 	height: 10px;
 	width: 60px;
-	text-align: center;
+	text-align: justify;
 	margin: 0 auto;
 	margin-top: 20px;
 }
@@ -234,7 +234,7 @@ ul.about-list li span{
     padding: 0;
     margin: 15px;
     color: #FFF;
-    text-align: center;
+    text-align: justify;
 }
 
 img.img-circle.team-img {

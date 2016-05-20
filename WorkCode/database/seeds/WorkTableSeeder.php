@@ -160,7 +160,52 @@ class WorkTableSeeder extends Seeder
 									para obra determinada, siempre que se reúnan las
 									condiciones que indica el párrafo anterior.',
 																		
-               		'comment'=>'Clasificación de contratos de Trabajo'),   
+               		'comment'=>'Clasificación de contratos de Trabajo'),
+
+             array( 'number'=>'Articulo 26',
+             		'description'=>'Todo contrato individual de trabajo
+									debe tenerse por celebrado por tiempo indefinido,
+									salvo prueba o estipulación lícita y expresa en
+									contrario.<br>
+									Deben tenerse siempre como contratos a plazo
+									indefinido, aunque se hayan ajustado a plazo fijo
+									o para obra determinada, los que se celebren en
+									una empresa cuyas actividades sean de naturaleza
+									permanente o continuada, si al vencimiento de
+									dichos contratos subsiste la causa que les dio
+									origen.<br>
+									En consecuencia, los contratos a plazo fijo y para
+									obra determinada tienen carácter de excepción y
+									sólo pueden celebrarse en los casos que así lo exija
+									la naturaleza accidental o temporal del servicio que
+									se va a prestar o de la obra que se va a ejecutar.',
+																		
+               		'comment'=>'Contrato Tipo'),
+
+
+
+             array( 'number'=>'Articulo 27',
+             		'description'=>'El contrato individual de trabajo
+									puede ser verbal cuando se refiera:<br>
+									a) A las labores agrícolas o ganaderas;<br>
+									b) Al servicio doméstico;<br>
+									c) A los trabajos accidentales o temporales que no
+									excedan de sesenta días; y
+									d) A la prestación de un trabajo para obra<br>
+									determinada, siempre que el valor de ésta no
+									exceda de cien quetzales, y si se hubiere señalado
+									plazo para la entrega siempre que éste no sea
+									mayor de sesenta días.
+									En todos estos casos el patrono queda obligado a
+									suministrar al trabajador, en el momento en que se
+									celebre el contrato, una tarjeta o constancia que
+									únicamente debe contener la fecha de iniciación de
+									la relación de trabajo y el salario estipulado, y al
+									vencimiento de cada período de pago, el número de
+									días o jornadas trabajadas, o el de tareas u obras
+									realizadas.',
+																		
+               		'comment'=>'Contrato Tipo'),    
           ));
     }
 }
