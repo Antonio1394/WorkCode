@@ -27,7 +27,7 @@
                     	@if($data->comment =="")
                         	<p>No existen Comentarios sobre este Articulo</p>
                         @else
-                        	<p style="font-size: 150%">{{ $data->comment }}</p>
+                        	<p style="font-size: 150%">{!! $data->comment !!}</p>
                         @endif
                  	</div> 
                 </div>
