@@ -205,7 +205,73 @@ class WorkTableSeeder extends Seeder
 									días o jornadas trabajadas, o el de tareas u obras
 									realizadas.',
 																		
-               		'comment'=>'Contrato Tipo'),    
+               		'comment'=>'Contrato Tipo'),
+
+
+             array( 'number'=>'Articulo 28',
+             		'description'=>'En los demás casos, el contrato
+									individual de trabajo debe extenderse por escrito,
+									en tres ejemplares: uno que debe recoger cada
+									parte en el acto de celebrarse y otro que el patrono
+									queda obligado a hacer llegar al Departamento
+									Administrativo de Trabajo15, directamente o por
+									medio de la autoridad de trabajo más cercana, dentro
+									de los quince días posteriores a su celebración,
+									modificación o novación.',
+																		
+               		'comment'=>'La Plena Prueba'), 
+
+
+             array( 'number'=>'Articulo 28',
+             		'description'=>'l contrato escrito de trabajo debe
+									contener:
+									a) Los nombres, apellidos, edad, sexo, estado civil,
+									nacionalidad, y vecindad de los contratantes;<br>
+									b) La fecha de la iniciación de la relación de
+									trabajo;<br>
+									c) La indicación de los servicios que el trabajador se
+									obliga a prestar, o la naturaleza de la obra a ejecutar,
+									especificando en lo posible las características y las
+									condiciones del trabajo;<br><br>
+
+									Código de Trabajo • Edición Conmemorativa
+									d) El lugar o los lugares donde deben prestarse los
+									servicios o ejecutarse la obra;<br>
+									e) La designación precisa del lugar donde viva el
+									trabajador cuando se le contrata para prestar sus
+									servicios o ejecutar una obra en lugar distinto de
+									aquel donde viva habitualmente;<br>
+									f) La duración del contrato o la expresión de ser
+									por tiempo indefinido o para la ejecución de obra
+									determinada;<br>
+									g) El tiempo de la jornada de trabajo y las horas en
+									que debe prestarse;<br>
+									h) El salario, beneficio, comisión o participación que
+									debe recibir el trabajador; si se debe calcular por
+									unidad de tiempo, por unidad de obra o de alguna
+									otra manera y la forma, período y lugar de pago;17
+									En los casos en que se estipule que el salario se ha
+									de pagar por unidad de obra, se debe hacer constar
+									la cantidad y calidad de material, las herramientas
+									y útiles que el patrono convenga en proporcionar y
+									el estado de conservación de los mismos, así como
+									el tiempo que el trabajador pueda tenerlos a su
+									disposición. El patrono no puede exigir del trabajador
+									cantidad alguna por concepto de desgaste normal
+									o destrucción accidental de las herramientas, como
+									consecuencia de su uso en el trabajo;<br>
+									i) Las demás estipulaciones legales en que
+									convengan las partes;<br>
+									j) El lugar y la fecha de celebración del contrato; y<br>
+									k) Las firmas de los contratantes o la impresión
+									digital de los que no sepan o no puedan firmar, y el
+									número de sus cédulas de vecindad.
+									El Ministerio de Trabajo y Previsión Social debe
+									imprimir modelos de contratos para cada una de las
+									categorías de trabajo a fin de facilitar el cumplimiento
+									de esta disposición.',
+																		
+               		'comment'=>'Lo que debe de contener el contrato de trabajo'),    
           ));
     }
 }
