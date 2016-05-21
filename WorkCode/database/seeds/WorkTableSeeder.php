@@ -222,7 +222,7 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'La Plena Prueba'), 
 
 
-             array( 'number'=>'Articulo 28',
+             array( 'number'=>'Articulo 29',
              		'description'=>'l contrato escrito de trabajo debe
 									contener:
 									a) Los nombres, apellidos, edad, sexo, estado civil,
@@ -271,7 +271,64 @@ class WorkTableSeeder extends Seeder
 									categorías de trabajo a fin de facilitar el cumplimiento
 									de esta disposición.',
 																		
-               		'comment'=>'Lo que debe de contener el contrato de trabajo'),    
+               		'comment'=>'Lo que debe de contener el contrato de trabajo'),   
+
+
+
+
+             array( 'number'=>'Articulo 30',
+             		'description'=>'La prueba plena del contrato escrito
+									sólo puede hacerse con el documento respectivo.
+									La falta de éste o la omisión de alguno de sus
+									requisitos se debe imputar siempre al patrono y
+									si a requerimiento de las autoridades de trabajo
+									no lo exhibe, deben presumirse, salvo prueba en
+									contrario, ciertas las estipulaciones de trabajo
+									afirmadas por el trabajador.
+									El contrato verbal se puede probar por los medios
+									generales de prueba y, al efecto, pueden ser testigos
+									los trabajadores al servicio de un mismo patrono.',
+																		
+               		'comment'=>'Principio de Tutelaridad'),  
+
+
+             array( 'number'=>'Articulo 31',
+             		'description'=>'Tienen también capacidad para
+									contratar su trabajo, para percibir y disponer de la
+									retribución convenida y, en general, para ejercer los
+									derechos y acciones que se deriven del presente
+									Código, de sus reglamentos y de las leyes de
+									previsión social, los menores de edad, de uno u
+									otro sexo, que tengan catorce años o más y los
+									insolventes y fallidos.19
+									Las capacidades específicas a que alude el párrafo
+									anterior, lo son sólo para los efectos de trabajo, y
+									en consecuencia, no afectan en lo demás el estado
+									de minoridad o, en su caso, el de incapacidad por
+									insolvencia o quiebra.
+									La interdicción judicial declarada del patrono no
+									invalida los actos o contratos que haya celebrado
+									el ejecutado con sus trabajadores anteriormente a
+									dicha declaratoria.',
+																		
+               		'comment'=>''),
+
+
+				array( 'number'=>'Articulo 32',
+             		'description'=>'Los contratos relativos al trabajo
+									de los jóvenes que tengan menos de catorce años,
+									deben celebrarse con los representantes legales de
+									éstos y, en su defecto, se necesita la autorización
+									de la Inspección General de Trabajo.20
+									El producto del trabajo de los menores a que se
+									refiere el párrafo anterior lo deben percibir sus
+									representantes legales o la persona que tenga a su
+									cargo el cuidado de ellos, según la determinación
+									que debe hacer la Inspección General de Trabajo
+									en las autorizaciones a que alude este Artículo.',
+																		
+               		'comment'=>''),
+
           ));
     }
 }
