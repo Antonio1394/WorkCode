@@ -329,6 +329,105 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>''),
 
+
+				array( 'number'=>'Articulo 57',
+             		'description'=>'Reglamento interior de trabajo es
+									el conjunto de normas elaborado por el patrono
+									de acuerdo con las leyes, reglamentos, pactos
+									colectivos y contratos vigentes que lo afecten, con
+									el objeto de precisar y regular las normas a que
+									obligadamente se deben sujetar él y sus trabajadores
+									con motivo de la ejecución o prestación concreta
+									del trabajo.',
+																		
+               		'comment'=>'Reglamento interior de trabajo'),
+
+
+				array( 'number'=>'Articulo 58',
+             		'description'=>'Todo patrono que ocupe en su
+									empresa permanentemente diez o más trabajadores,
+									queda obligado a elaborar y poner en vigor su
+									respectivo reglamento interior de trabajo.',
+																		
+               		'comment'=>''),
+
+
+
+				array( 'number'=>'Articulo 60',
+             		'description'=>'El reglamento interior de Trabajo
+									debe comprender las reglas de orden técnico y
+									administrativo necesarias para la buena marcha de
+									la empresa; las relativas a higiene y seguridad en
+									las labores, como indicaciones para evitar que se
+									realicen los riesgos profesionales e instrucciones
+									para prestar los primeros auxilios en caso de
+									accidente y, en general, todas aquellas otras que
+									se estimen necesarias para la conservación de
+									la disciplina y el buen cuido de los bienes de la
+									empresa. Además, debe contener:<br>
+									a) Las horas de entrada y salida de los trabajadores,
+									el tiempo destinado para las comidas y el período
+									de descanso durante la jornada;<br>
+									b) El lugar y el momento en que deben comenzar y
+									terminar las jornadas de trabajo;<br>
+									c) Los diversos tipos de salarios y las categorías de
+									trabajo a que correspondan;<br>
+									d) El lugar, día y hora de pago;<br>
+									e) Las disposiciones disciplinarias y procedimientos
+									para aplicarlas. Se prohíbe descontar suma alguna
+									del salario de los trabajadores en concepto de multa.
+									La suspensión del trabajo, sin goce de salario, no
+									debe decretarse por más de ocho días, ni antes de
+									haber oído al interesado y a los compañeros de
+									trabajo que éste indique. Tampoco podrá imponerse
+									esta sanción, sino en los casos expresamente
+									previstos en el respectivo reglamento;<br>
+									f) La designación de las personas del establecimiento
+									ante quienes deben presentarse las peticiones de
+									mejoramiento o reclamos en general y la manera de
+									formular unas y otros; y<br>
+									g) Las normas especiales pertinentes a las diversas
+									clases de labores de acuerdo con la edad y sexo
+									de los trabajadores y las normas de conducta,
+									presentación y compostura personal que éstos
+									deben guardar, según lo requiera la índole del
+									trabajo.',
+																		
+               		'comment'=>''),
+
+
+				array( 'number'=>'Articulo 62',
+             		'description'=>'Se prohíbe a los patronos:<br>
+									a) Inducir o exigir a sus trabajadores que compren
+									sus artículos de consumo a determinados
+									establecimientos o personas;<br>
+									b) Exigir o aceptar dinero u otra compensación de
+									los trabajadores como gratificación para que se les
+									admita en el trabajo o por cualquiera otra concesión
+									o privilegio que se relacione con las condiciones de
+									trabajo en general.<br>
+									c) Obligar o intentar obligar a los trabajadores,
+									cualquiera que sea el medio que se adopte, a
+									retirarse de los sindicatos o grupos legales a que
+									pertenezcan o a ingresar a unos o a otros;
+									d) Influir en sus decisiones políticas o convicciones
+									religiosas;<br>
+									e) Retener por su sola voluntad las herramientas u
+									objetos del trabajador sea como garantía o a título
+									de indemnización o de cualquier otro no traslativo
+									de propiedad;<br>
+									f) Hacer o autorizar colectas o suscripciones
+									obligatorias entre sus trabajadores, salvo que se
+									trate de las impuestas por la ley;
+									g) Dirigir o permitir que se dirijan los trabajos en
+									estado de embriaguez o bajo la influencia de drogas
+									estupefacientes o en cualquier otra condición
+									anormal análoga; y<br>
+									h) Ejecutar cualquier otro acto que restrinja los
+									derechos que el trabajador tiene conforme la ley.',
+																		
+               		'comment'=>''),
+
           ));
     }
 }
