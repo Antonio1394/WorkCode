@@ -223,7 +223,7 @@ class WorkTableSeeder extends Seeder
 
 
              array( 'number'=>'Articulo 29',
-             		'description'=>'l contrato escrito de trabajo debe
+             		'description'=>'El contrato escrito de trabajo debe
 									contener:
 									a) Los nombres, apellidos, edad, sexo, estado civil,
 									nacionalidad, y vecindad de los contratantes;<br>
@@ -365,7 +365,7 @@ class WorkTableSeeder extends Seeder
 									se estimen necesarias para la conservación de
 									la disciplina y el buen cuido de los bienes de la
 									empresa. Además, debe contener:<br>
-									a) Las horas de entrada y salida de los trabajadores,
+									<strong>a)</strong> Las horas de entrada y salida de los trabajadores,
 									el tiempo destinado para las comidas y el período
 									de descanso durante la jornada;<br>
 									b) El lugar y el momento en que deben comenzar y
