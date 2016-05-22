@@ -428,6 +428,38 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>''),
 
+				array( 'number'=>'Articulo 65',
+             		'description'=>'Hay suspensión de los contratos
+								de trabajo cuando una o las dos partes que
+								forman la relación laboral deja o dejan de cumplir
+								parcial o totalmente, durante un tiempo, alguna
+								de sus respectivas obligaciones fundamentales
+								(prestación del trabajo y pago del salario), sin que
+								por ello terminen dichos contratos ni se extingan
+								los derechos y obligaciones que emanen de los
+								mismos.
+								La suspensión puede ser:
+				a) Individual parcial, cuando afecta a una relación
+				de trabajo y una de las partes deja de cumplir sus
+				obligaciones fundamentales;
+				b) Individual total, cuando afecta a una relación
+				de trabajo y las dos partes dejan de cumplir sus
+				obligaciones fundamentales;
+				c) Colectiva parcial, cuando por una misma causa
+				se afecta la mayoría o la totalidad de las relaciones
+				de trabajo vigentes en una empresa o lugar de
+				trabajo, y el patrono o sus trabajadores dejan de
+				cumplir sus obligaciones fundamentales; y
+				d) Colectiva total, cuando por una misma causa se
+				afectan la mayoría o la totalidad de las relaciones de
+				trabajo vigentes en una empresa o lugar de trabajo,
+				y el patrono y sus trabajadores dejan de cumplir sus
+				obligaciones fundamentales.',
+																		
+               		'comment'=>''),
+
+
+
           ));
     }
 }
