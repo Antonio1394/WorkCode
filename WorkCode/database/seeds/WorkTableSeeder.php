@@ -439,24 +439,45 @@ class WorkTableSeeder extends Seeder
 								los derechos y obligaciones que emanen de los
 								mismos.
 								La suspensión puede ser:
-				a) Individual parcial, cuando afecta a una relación
-				de trabajo y una de las partes deja de cumplir sus
-				obligaciones fundamentales;
-				b) Individual total, cuando afecta a una relación
-				de trabajo y las dos partes dejan de cumplir sus
-				obligaciones fundamentales;
-				c) Colectiva parcial, cuando por una misma causa
-				se afecta la mayoría o la totalidad de las relaciones
-				de trabajo vigentes en una empresa o lugar de
-				trabajo, y el patrono o sus trabajadores dejan de
-				cumplir sus obligaciones fundamentales; y
-				d) Colectiva total, cuando por una misma causa se
-				afectan la mayoría o la totalidad de las relaciones de
-				trabajo vigentes en una empresa o lugar de trabajo,
-				y el patrono y sus trabajadores dejan de cumplir sus
-				obligaciones fundamentales.',
+								a) Individual parcial, cuando afecta a una relación
+								de trabajo y una de las partes deja de cumplir sus
+								obligaciones fundamentales;
+								b) Individual total, cuando afecta a una relación
+								de trabajo y las dos partes dejan de cumplir sus
+								obligaciones fundamentales;
+								c) Colectiva parcial, cuando por una misma causa
+								se afecta la mayoría o la totalidad de las relaciones
+								de trabajo vigentes en una empresa o lugar de
+								trabajo, y el patrono o sus trabajadores dejan de
+								cumplir sus obligaciones fundamentales; y
+								d) Colectiva total, cuando por una misma causa se
+								afectan la mayoría o la totalidad de las relaciones de
+								trabajo vigentes en una empresa o lugar de trabajo,
+								y el patrono y sus trabajadores dejan de cumplir sus
+								obligaciones fundamentales.',
 																		
-               		'comment'=>''),
+               		'comment'=>'Variante a: Las Causas, articulo 66<br>
+               					Variante b: Causas Articulo 68<br>
+               					Variante c: Causas Articulo 70<br>
+               					Variante d: Causas Articulo 71'),
+
+				array( 'number'=>'Articulo 66',
+             		'description'=>'Son causas de suspensión individual
+									parcial de los contratos de trabajo:
+									a) Las licencias, descansos y vacaciones
+
+									Código de Trabajo • Edición Conmemorativa
+									remunerados que impongan la ley o los que conceda
+									el patrono con goce de salario;
+									b) Las enfermedades, los riesgos profesionales
+									acaecidos, los descansos pre y posnatales y los
+									demás riesgos sociales análogos que produzcan
+									incapacidad temporal comprobada para desempeñar
+									el trabajo; y
+									c) La obligación de trabajo sin goce de salario
+									adicional que impone el Artículo 63, inciso e).',
+																		
+               		'comment'=>'Causas de suspensión Parcial' 
 
 
 
