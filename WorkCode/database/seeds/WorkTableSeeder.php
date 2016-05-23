@@ -507,7 +507,34 @@ class WorkTableSeeder extends Seeder
 									prueba de los extremos a que se refiere el párrafo
 									segundo de este Artículo.'
 																		
-               		'comment'=>'Causas de suspension de individual total' 
+               		'comment'=>'Causas de suspension de individual total'
+
+
+             	array( 'number'=>'Articulo 70',
+             		'description'=>'Son causas de suspensión colectiva
+									parcial de los contratos de trabajo:
+									a) La huelga legalmente declarada, cuyas causas
+									hayan sido estimadas imputables al patrono por los
+									Tribunales de Trabajo y Previsión Social;
+									b) Los casos previstos por los Artículos 251 y 252,
+									párrafo segundo;37
+									c) La falta de materia prima para llevar adelante
+									los trabajos, siempre que sea imputable al patrono,
+									según declaración de los mismos tribunales; y
+									d) Las causas que enumera el Artículo siguiente,
+									siempre que los patronos hayan accedido de previo
+									o accedan después a pagar a sus trabajadores,
+									durante la vigencia de la suspensión, sus salarios
+									en parte o en todo.
+									En el caso del inciso a) rige la regla del Artículo
+									242, párrafo segundo, y en el caso del inciso c)
+									los tribunales deben graduar discrecionalmente,
+									según el mérito de los autos, la cuantía de los
+									salarios caídos que el patrono debe pagar a sus
+									trabajadores.'
+																		
+               		'comment'=>'Causas de suspension colectiva parcial <br>
+               					Huelga legal Justa'  
 
 
 
