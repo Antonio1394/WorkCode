@@ -461,23 +461,53 @@ class WorkTableSeeder extends Seeder
                					Variante c: Causas Articulo 70<br>
                					Variante d: Causas Articulo 71'),
 
-				array( 'number'=>'Articulo 66',
+				array( 'number'=>'Articulo 68',
              		'description'=>'Son causas de suspensión individual
-									parcial de los contratos de trabajo:
-									a) Las licencias, descansos y vacaciones
-
-									Código de Trabajo • Edición Conmemorativa
-									remunerados que impongan la ley o los que conceda
-									el patrono con goce de salario;
-									b) Las enfermedades, los riesgos profesionales
-									acaecidos, los descansos pre y posnatales y los
-									demás riesgos sociales análogos que produzcan
-									incapacidad temporal comprobada para desempeñar
-									el trabajo; y
-									c) La obligación de trabajo sin goce de salario
-									adicional que impone el Artículo 63, inciso e).',
+									total de los contratos de trabajo:
+									a) Las licencias o descansos sin goce de salario
+									que acuerden patronos y trabajadores;
+									b) Los casos previstos en el Artículo 66, inciso b),
+									una vez transcurridos los términos en los que el
+									patrono está obligado a pagar medio salario, como
+									se alude en dicho Artículo; y
+									c) La prisión provisional, la prisión simple y el arresto
+									menor que en contra del trabajador se decreten.
+									Esta regla rige en el caso de la prisión provisional,
+									siempre que la misma sea seguida de auto que la
+									reforme, de sentencia absolutoria o si el trabajador
+									obtuviere su excarcelación bajo fianza, únicamente
+									cuando el delito por el que se le procesa no se
+									suponga cometido contra el patrono, sus parientes,
+									sus representantes o los intereses de uno u otros.
+									Sin embargo, en este último supuesto, el trabajador
+									que obtuviere reforma del auto de prisión provisional
+									o sentencia absolutoria, tendrá derecho a que el
+									patrono le cubra los salarios correspondientes
+									al tiempo que de conformidad con las normas
+									procesales respectivas deba durar el proceso,
+									salvo el lapso que el trabajador haya prestado sus
+									servicios a otro patrono, mientras estuvo en libertad
+									durante la tramitación del proceso.
+									Es obligación del trabajador dar aviso al patrono de
+									la causa que le impide asistir al trabajo, dentro de
+									los cinco días siguientes a aquél en que empezó
+									su prisión provisional, prisión simple o arresto
+									menor y reanudar su trabajo dentro de los dos
+									días siguientes a aquél en que obtuvo su libertad.
+									Si no lo hace, el patrono puede dar por terminado
+									el contrato, sin que ninguna de las partes incurra
+									en responsabilidad, salvo que la suspensión deba
+									continuar conforme al inciso b) del Artículo 66.
+									En estos casos rige la regla del último párrafo del
+									Artículo 67.
+									A solicitud del trabajador, el alcaide o jefe de la cárcel
+									bajo pena de multa de diez a quinientos quetzales,
+									que impondrá el respectivo Juez de Trabajo, debe
+									extenderle las constancias necesarias para la
+									prueba de los extremos a que se refiere el párrafo
+									segundo de este Artículo.'
 																		
-               		'comment'=>'Causas de suspensión Parcial' 
+               		'comment'=>'Causas de suspension de individual total' 
 
 
 
