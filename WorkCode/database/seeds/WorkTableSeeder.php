@@ -154,6 +154,9 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'Principios de Derechos mínimos'),
 
              array( 'number'=>'Articulo 23',
+             		'begin'=>'La sustitución del patrono no
+									afecta los contratos de trabajo existentes, en
+									perjuicio del trabajador. El patrono sustituido queda',
              		'description'=>'La sustitución del patrono no
 									afecta los contratos de trabajo existentes, en
 									perjuicio del trabajador. El patrono sustituido queda
@@ -165,6 +168,11 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'Sustitución total del patrono'),
 
              array( 'number'=>'Articulo 25',
+             		'begin'=>'El contrato individual de trabajo
+									puede ser:a) Por tiempo indefinido, cuando no se especifica
+									fecha para su terminación.
+									b) A plazo fijo, cuando se especifica fecha para su
+									terminación o cuando se ha previsto el acaecimiento',
              		'description'=>'El contrato individual de trabajo
 									puede ser:<br>
 									a) Por tiempo indefinido, cuando no se especifica
@@ -192,6 +200,10 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'Clasificación de contratos de Trabajo'),
 
              array( 'number'=>'Articulo 26',
+             		'begin'=>'Todo contrato individual de trabajo
+									debe tenerse por celebrado por tiempo indefinido,
+									salvo prueba o estipulación lícita y expresa en
+									contrario.',
              		'description'=>'Todo contrato individual de trabajo
 									debe tenerse por celebrado por tiempo indefinido,
 									salvo prueba o estipulación lícita y expresa en
@@ -212,6 +224,12 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'Contrato Tipo'),
 
              array( 'number'=>'Articulo 27',
+             		'begin'=>'El contrato individual de trabajo
+									puede ser verbal cuando se refiera:
+									a) A las labores agrícolas o ganaderas;
+									b) Al servicio doméstico;
+									c) A los trabajos accidentales o temporales que no
+									excedan de sesenta días; y',
              		'description'=>'El contrato individual de trabajo
 									puede ser verbal cuando se refiera:<br>
 									a) A las labores agrícolas o ganaderas;<br>
@@ -235,6 +253,10 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'Contrato Tipo'),
 
              array( 'number'=>'Articulo 28',
+             		'begin'=>'En los demás casos, el contrato
+									individual de trabajo debe extenderse por escrito,
+									en tres ejemplares: uno que debe recoger cada
+									parte en el acto de celebrarse y otro que el patrono',
              		'description'=>'En los demás casos, el contrato
 									individual de trabajo debe extenderse por escrito,
 									en tres ejemplares: uno que debe recoger cada
@@ -248,8 +270,15 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'La Plena Prueba'), 
 
              array( 'number'=>'Articulo 29',
-             		'description'=>'El contrato escrito de trabajo debe
+             		'begin'=>'El contrato escrito de trabajo debe
 									contener:
+									a) Los nombres, apellidos, edad, sexo, estado civil,
+									nacionalidad, y vecindad de los contratantes;
+									b) La fecha de la iniciación de la relación de
+									trabajo;
+									c) La indicación de los ',
+             		'description'=>'El contrato escrito de trabajo debe
+									contener:<br>
 									a) Los nombres, apellidos, edad, sexo, estado civil,
 									nacionalidad, y vecindad de los contratantes;<br>
 									b) La fecha de la iniciación de la relación de
@@ -299,6 +328,12 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'Lo que debe de contener el contrato de trabajo'),   
 
              array( 'number'=>'Articulo 30',
+             		'begin'=>'La prueba plena del contrato escrito
+									sólo puede hacerse con el documento respectivo.
+									La falta de éste o la omisión de alguno de sus
+									requisitos se debe imputar siempre al patrono y
+									si a requerimiento de las autoridades de trabajo
+									no lo exhibe, deben presumirse, salvo prueba en',
              		'description'=>'La prueba plena del contrato escrito
 									sólo puede hacerse con el documento respectivo.
 									La falta de éste o la omisión de alguno de sus
@@ -314,6 +349,11 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'Principio de Tutelaridad'),  
 
              array( 'number'=>'Articulo 31',
+             		'begin'=>'Tienen también capacidad para
+									contratar su trabajo, para percibir y disponer de la
+									retribución convenida y, en general, para ejercer los
+									derechos y acciones que se deriven del presente
+									Código, de sus reglamentos y de las leyes de',
              		'description'=>'Tienen también capacidad para
 									contratar su trabajo, para percibir y disponer de la
 									retribución convenida y, en general, para ejercer los
@@ -335,6 +375,10 @@ class WorkTableSeeder extends Seeder
                		'comment'=>''),
 
 			 array( 'number'=>'Articulo 32',
+			 		'begin'=>'Los contratos relativos al trabajo
+									de los jóvenes que tengan menos de catorce años,
+									deben celebrarse con los representantes legales de
+									éstos y, en su defecto, se necesita la autorización',
              		'description'=>'Los contratos relativos al trabajo
 									de los jóvenes que tengan menos de catorce años,
 									deben celebrarse con los representantes legales de
@@ -350,6 +394,10 @@ class WorkTableSeeder extends Seeder
                		'comment'=>''),
 
 			 array( 'number'=>'Articulo 57',
+			 		'begin'=>'Reglamento interior de trabajo es
+									el conjunto de normas elaborado por el patrono
+									de acuerdo con las leyes, reglamentos, pactos
+									colectivos y contratos vigentes que lo afecten, con',
              		'description'=>'Reglamento interior de trabajo es
 									el conjunto de normas elaborado por el patrono
 									de acuerdo con las leyes, reglamentos, pactos
@@ -362,6 +410,10 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'Reglamento interior de trabajo'),
 
 		     array( 'number'=>'Articulo 58',
+		     		'begin'=>'Todo patrono que ocupe en su
+									empresa permanentemente diez o más trabajadores,
+									queda obligado a elaborar y poner en vigor su
+									respectivo reglamento interior de trabajo.',
              		'description'=>'Todo patrono que ocupe en su
 									empresa permanentemente diez o más trabajadores,
 									queda obligado a elaborar y poner en vigor su
@@ -370,6 +422,11 @@ class WorkTableSeeder extends Seeder
                		'comment'=>''),
 
 			 array( 'number'=>'Articulo 60',
+			 		'begin'=>'El reglamento interior de Trabajo
+									debe comprender las reglas de orden técnico y
+									administrativo necesarias para la buena marcha de
+									la empresa; las relativas a higiene y seguridad en
+									las labores, como indicaciones para evi',
              		'description'=>'El reglamento interior de Trabajo
 									debe comprender las reglas de orden técnico y
 									administrativo necesarias para la buena marcha de
@@ -412,6 +469,10 @@ class WorkTableSeeder extends Seeder
                		'comment'=>''),
 
 			 array( 'number'=>'Articulo 62',
+			 		'begin'=>'Se prohíbe a los patronos:<br>
+									a) Inducir o exigir a sus trabajadores que compren
+									sus artículos de consumo a determinados
+									establecimientos o personas;',
              		'description'=>'Se prohíbe a los patronos:<br>
 									a) Inducir o exigir a sus trabajadores que compren
 									sus artículos de consumo a determinados
@@ -444,6 +505,12 @@ class WorkTableSeeder extends Seeder
                		'comment'=>''),
 
 			 array( 'number'=>'Articulo 65',
+			 		'begin'=>'Hay suspensión de los contratos
+								de trabajo cuando una o las dos partes que
+								forman la relación laboral deja o dejan de cumplir
+								parcial o totalmente, durante un tiempo, alguna
+								de sus respectivas obligaciones fundamentales
+								(prestación del trabajo y pago del salario), ',
              		'description'=>'Hay suspensión de los contratos
 								de trabajo cuando una o las dos partes que
 								forman la relación laboral deja o dejan de cumplir
@@ -453,18 +520,18 @@ class WorkTableSeeder extends Seeder
 								por ello terminen dichos contratos ni se extingan
 								los derechos y obligaciones que emanen de los
 								mismos.
-								La suspensión puede ser:
+								La suspensión puede ser:<br>
 								a) Individual parcial, cuando afecta a una relación
 								de trabajo y una de las partes deja de cumplir sus
-								obligaciones fundamentales;
+								obligaciones fundamentales;<br>
 								b) Individual total, cuando afecta a una relación
 								de trabajo y las dos partes dejan de cumplir sus
-								obligaciones fundamentales;
+								obligaciones fundamentales;<br>
 								c) Colectiva parcial, cuando por una misma causa
 								se afecta la mayoría o la totalidad de las relaciones
 								de trabajo vigentes en una empresa o lugar de
 								trabajo, y el patrono o sus trabajadores dejan de
-								cumplir sus obligaciones fundamentales; y
+								cumplir sus obligaciones fundamentales; y<br>
 								d) Colectiva total, cuando por una misma causa se
 								afectan la mayoría o la totalidad de las relaciones de
 								trabajo vigentes en una empresa o lugar de trabajo,
@@ -477,14 +544,21 @@ class WorkTableSeeder extends Seeder
                					Variante d: Causas Articulo 71'),
 
 			 array( 'number'=>'Articulo 68',
-             		'description'=>'Son causas de suspensión individual
+			 		'begin'=>'Son causas de suspensión individual
 									total de los contratos de trabajo:
 									a) Las licencias o descansos sin goce de salario
 									que acuerden patronos y trabajadores;
 									b) Los casos previstos en el Artículo 66, inciso b),
 									una vez transcurridos los términos en los que el
+									patrono está obligado a pagar medio salari',
+             		'description'=>'Son causas de suspensión individual
+									total de los contratos de trabajo:<br>
+									a) Las licencias o descansos sin goce de salario
+									que acuerden patronos y trabajadores;
+									b) Los casos previstos en el Artículo 66, inciso b),
+									una vez transcurridos los términos en los que el
 									patrono está obligado a pagar medio salario, como
-									se alude en dicho Artículo; y
+									se alude en dicho Artículo; y<br>
 									c) La prisión provisional, la prisión simple y el arresto
 									menor que en contra del trabajador se decreten.
 									Esta regla rige en el caso de la prisión provisional,
@@ -523,55 +597,7 @@ class WorkTableSeeder extends Seeder
 									segundo de este Artículo.',										
                		'comment'=>'Causas de suspension de individual total'),
 
-			 array( 'number'=>'Articulo 68',
-             		'description'=>'Son causas de suspensión individual
-									total de los contratos de trabajo:
-									a) Las licencias o descansos sin goce de salario
-									que acuerden patronos y trabajadores;
-									b) Los casos previstos en el Artículo 66, inciso b),
-									una vez transcurridos los términos en los que el
-									patrono está obligado a pagar medio salario, como
-									se alude en dicho Artículo; y
-									c) La prisión provisional, la prisión simple y el arresto
-									menor que en contra del trabajador se decreten.
-									Esta regla rige en el caso de la prisión provisional,
-									siempre que la misma sea seguida de auto que la
-									reforme, de sentencia absolutoria o si el trabajador
-									obtuviere su excarcelación bajo fianza, únicamente
-									cuando el delito por el que se le procesa no se
-									suponga cometido contra el patrono, sus parientes,
-									sus representantes o los intereses de uno u otros.
-									Sin embargo, en este último supuesto, el trabajador
-									que obtuviere reforma del auto de prisión provisional
-									o sentencia absolutoria, tendrá derecho a que el
-									patrono le cubra los salarios correspondientes
-									al tiempo que de conformidad con las normas
-									procesales respectivas deba durar el proceso,
-									salvo el lapso que el trabajador haya prestado sus
-									servicios a otro patrono, mientras estuvo en libertad
-									durante la tramitación del proceso.
-									Es obligación del trabajador dar aviso al patrono de
-									la causa que le impide asistir al trabajo, dentro de
-									los cinco días siguientes a aquél en que empezó
-									su prisión provisional, prisión simple o arresto
-									menor y reanudar su trabajo dentro de los dos
-									días siguientes a aquél en que obtuvo su libertad.
-									Si no lo hace, el patrono puede dar por terminado
-									el contrato, sin que ninguna de las partes incurra
-									en responsabilidad, salvo que la suspensión deba
-									continuar conforme al inciso b) del Artículo 66.
-									En estos casos rige la regla del último párrafo del
-									Artículo 67.
-									A solicitud del trabajador, el alcaide o jefe de la cárcel
-									bajo pena de multa de diez a quinientos quetzales,
-									que impondrá el respectivo Juez de Trabajo, debe
-									extenderle las constancias necesarias para la
-									prueba de los extremos a que se refiere el párrafo
-									segundo de este Artículo.',										
-               		'comment'=>'Causas de suspension de individual total'),
-
-
-             	
+			              	
 
 
 
