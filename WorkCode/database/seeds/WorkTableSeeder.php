@@ -13,7 +13,12 @@ class WorkTableSeeder extends Seeder
     {
         DB::table('articlesWork')->delete();
         DB::table('articlesWork')->insert(array(
+
              array( 'number'=>'Articulo 5',
+             		'begin'=>'Intermediario es toda persona que 
+									contrata en nombre propio los servicios de uno o
+									más trabajadores para que ejecuten algún trabajo
+									en beneficio de un patrono. Este último queda',
              		'description'=>'Intermediario es toda persona que 
 									contrata en nombre propio los servicios de uno o
 									más trabajadores para que ejecuten algún trabajo
@@ -29,6 +34,10 @@ class WorkTableSeeder extends Seeder
                		'comment'=>''),
 
              array( 'number'=>'Articulo 7',
+             		'begin'=>'Se prohíbe en las zonas de trabajo
+									la venta o introducción de bebidas o drogas
+									embriagantes o estupefacientes, las lides de gallos,
+									los juegos de azar y el ejercicio de la prostitución',
              		'description'=>'Se prohíbe en las zonas de trabajo
 									la venta o introducción de bebidas o drogas
 									embriagantes o estupefacientes, las lides de gallos,
@@ -40,8 +49,11 @@ class WorkTableSeeder extends Seeder
 									las leyes y reglamentos respectivos.',
                		'comment'=>'Medidas del protección del Salario'),
 
-
              array( 'number'=>'Articulo 12',
+             		'begin'=>'Son nulos ipso jure y no obligan a los
+									contratantes, todos los actos o estipulaciones que
+									impliquen renuncia, disminución o tergiversación de
+									los derechos que la Constitución de la República',
              		'description'=>'Son nulos ipso jure y no obligan a los
 									contratantes, todos los actos o estipulaciones que
 									impliquen renuncia, disminución o tergiversación de
@@ -53,7 +65,12 @@ class WorkTableSeeder extends Seeder
 									trabajo u otro pacto o convenio cualquiera.',
                		'comment'=>'Nulidad del Contrato Individual del trabajo <br>ipso jure: Nulidad en todo derecho'),
 
-			array( 'number'=>'Articulo 15',
+			 array( 'number'=>'Articulo 15',
+			 		'begin'=>'Los casos no previstos por este
+									Código, por sus reglamentos o por las demás leyes
+									relativas al trabajo, se deben resolver, en primer
+									término, de acuerdo con los principios del derecho
+									de trabajo; en segundo lugar, de acuerdo con la',
              		'description'=>'Los casos no previstos por este
 									Código, por sus reglamentos o por las demás leyes
 									relativas al trabajo, se deben resolver, en primer
@@ -64,8 +81,12 @@ class WorkTableSeeder extends Seeder
 									los principios y leyes de derecho común.',
                		'comment'=>'Como se integra el sistema de representación de las normas laborales: de acuerdo a los principios.'),             
             
-
-            array( 'number'=>'Articulo 18',
+             array( 'number'=>'Articulo 18',
+             		'begin'=>'Contrato individual de trabajo,
+									sea cual fuere su denominación, es el vínculo
+									económico-jurídico mediante el que una persona
+									(trabajador), queda obligada a prestar a otra
+									(patrono), sus servicios personales o a ejecutarle',
              		'description'=>'Contrato individual de trabajo,
 									sea cual fuere su denominación, es el vínculo
 									económico-jurídico mediante el que una persona
@@ -77,7 +98,11 @@ class WorkTableSeeder extends Seeder
 									clase o forma.',
                		'comment'=>'Contrato de Trabajo.'),  
 
-            array( 'number'=>'Articulo 19',
+             array( 'number'=>'Articulo 19',
+             		'begin'=>'Primer Parrafo: Para que el contrato individual de
+									trabajo exista y se perfeccione, basta con que se
+									inicie la relación de trabajo, que es el hecho mismo
+									de la prestación de los servicios o de la ejecución',
              		'description'=>'Primer Parrafo: Para que el contrato individual de
 									trabajo exista y se perfeccione, basta con que se
 									inicie la relación de trabajo, que es el hecho mismo
@@ -86,17 +111,21 @@ class WorkTableSeeder extends Seeder
 									Artículo precedente.',
                		'comment'=>'Relacion de Trabajo.'),  
 
-
-            array( 'number'=>'Articulo 20',
-             		'description'=>'El contrato individual de trabajo
+             array( 'number'=>'Articulo 20',
+             		'begin'=>'El contrato individual de trabajo
 									obliga, no sólo a lo que se establece en él, sino:
+									a) A la observancia de las obligaciones y derechos
+									que este Código o los convenios internacionales
+									ratificados por Guatemala14, determinen para las',
+             		'description'=>'El contrato individual de trabajo
+									obliga, no sólo a lo que se establece en él, sino:<br>
 									a) A la observancia de las obligaciones y derechos
 									que este Código o los convenios internacionales
 									ratificados por Guatemala14, determinen para las
 									partes de la relación laboral, siempre, respecto
 									a estos últimos, cuando consignen beneficios
 									superiores para los trabajadores que los que este
-									Código crea; y
+									Código crea; y<br>
 									b) A las consecuencias que del propio contrato se
 									deriven según la buena fe, la equidad, el uso y
 									costumbres locales o la ley.
@@ -109,9 +138,12 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'<strong>Primer Parrafo: </strong> Efectos Individual del trabajo.
                					<strong>Cuarto Parrafo: </strong>  Elementos de las condiciones del 											trabajo'), 
 
-
-
-           	array( 'number'=>'Articulo 22',
+           	 array( 'number'=>'Articulo 22',
+           	 		'begin'=>'En todo contrato individual de
+									trabajo deben entenderse incluidos por lo menos,
+									las garantías y derechos que otorguen a los
+									trabajadores la Constitución, el presente Código,
+									sus reglamentos y las demás leyes de trabajo o de',
              		'description'=>'En todo contrato individual de
 									trabajo deben entenderse incluidos por lo menos,
 									las garantías y derechos que otorguen a los
@@ -121,8 +153,7 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>'Principios de Derechos mínimos'),
 
-
-            array( 'number'=>'Articulo 23',
+             array( 'number'=>'Articulo 23',
              		'description'=>'La sustitución del patrono no
 									afecta los contratos de trabajo existentes, en
 									perjuicio del trabajador. El patrono sustituido queda
@@ -132,8 +163,6 @@ class WorkTableSeeder extends Seeder
 									la sustitución y hasta por el término de seis meses.',
 																		
                		'comment'=>'Sustitución total del patrono'),
-
-
 
              array( 'number'=>'Articulo 25',
              		'description'=>'El contrato individual de trabajo
@@ -182,8 +211,6 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>'Contrato Tipo'),
 
-
-
              array( 'number'=>'Articulo 27',
              		'description'=>'El contrato individual de trabajo
 									puede ser verbal cuando se refiera:<br>
@@ -207,7 +234,6 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>'Contrato Tipo'),
 
-
              array( 'number'=>'Articulo 28',
              		'description'=>'En los demás casos, el contrato
 									individual de trabajo debe extenderse por escrito,
@@ -220,7 +246,6 @@ class WorkTableSeeder extends Seeder
 									modificación o novación.',
 																		
                		'comment'=>'La Plena Prueba'), 
-
 
              array( 'number'=>'Articulo 29',
              		'description'=>'El contrato escrito de trabajo debe
@@ -273,9 +298,6 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>'Lo que debe de contener el contrato de trabajo'),   
 
-
-
-
              array( 'number'=>'Articulo 30',
              		'description'=>'La prueba plena del contrato escrito
 									sólo puede hacerse con el documento respectivo.
@@ -290,7 +312,6 @@ class WorkTableSeeder extends Seeder
 									los trabajadores al servicio de un mismo patrono.',
 																		
                		'comment'=>'Principio de Tutelaridad'),  
-
 
              array( 'number'=>'Articulo 31',
              		'description'=>'Tienen también capacidad para
@@ -313,8 +334,7 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>''),
 
-
-				array( 'number'=>'Articulo 32',
+			 array( 'number'=>'Articulo 32',
              		'description'=>'Los contratos relativos al trabajo
 									de los jóvenes que tengan menos de catorce años,
 									deben celebrarse con los representantes legales de
@@ -329,8 +349,7 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>''),
 
-
-				array( 'number'=>'Articulo 57',
+			 array( 'number'=>'Articulo 57',
              		'description'=>'Reglamento interior de trabajo es
 									el conjunto de normas elaborado por el patrono
 									de acuerdo con las leyes, reglamentos, pactos
@@ -342,8 +361,7 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>'Reglamento interior de trabajo'),
 
-
-				array( 'number'=>'Articulo 58',
+		     array( 'number'=>'Articulo 58',
              		'description'=>'Todo patrono que ocupe en su
 									empresa permanentemente diez o más trabajadores,
 									queda obligado a elaborar y poner en vigor su
@@ -351,9 +369,7 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>''),
 
-
-
-				array( 'number'=>'Articulo 60',
+			 array( 'number'=>'Articulo 60',
              		'description'=>'El reglamento interior de Trabajo
 									debe comprender las reglas de orden técnico y
 									administrativo necesarias para la buena marcha de
@@ -395,8 +411,7 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>''),
 
-
-				array( 'number'=>'Articulo 62',
+			 array( 'number'=>'Articulo 62',
              		'description'=>'Se prohíbe a los patronos:<br>
 									a) Inducir o exigir a sus trabajadores que compren
 									sus artículos de consumo a determinados
@@ -428,7 +443,7 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>''),
 
-				array( 'number'=>'Articulo 65',
+			 array( 'number'=>'Articulo 65',
              		'description'=>'Hay suspensión de los contratos
 								de trabajo cuando una o las dos partes que
 								forman la relación laboral deja o dejan de cumplir
@@ -461,7 +476,7 @@ class WorkTableSeeder extends Seeder
                					Variante c: Causas Articulo 70<br>
                					Variante d: Causas Articulo 71'),
 
-				array( 'number'=>'Articulo 68',
+			 array( 'number'=>'Articulo 68',
              		'description'=>'Son causas de suspensión individual
 									total de los contratos de trabajo:
 									a) Las licencias o descansos sin goce de salario
@@ -505,36 +520,58 @@ class WorkTableSeeder extends Seeder
 									que impondrá el respectivo Juez de Trabajo, debe
 									extenderle las constancias necesarias para la
 									prueba de los extremos a que se refiere el párrafo
-									segundo de este Artículo.'
-																		
-               		'comment'=>'Causas de suspension de individual total'
+									segundo de este Artículo.',										
+               		'comment'=>'Causas de suspension de individual total'),
+
+			 array( 'number'=>'Articulo 68',
+             		'description'=>'Son causas de suspensión individual
+									total de los contratos de trabajo:
+									a) Las licencias o descansos sin goce de salario
+									que acuerden patronos y trabajadores;
+									b) Los casos previstos en el Artículo 66, inciso b),
+									una vez transcurridos los términos en los que el
+									patrono está obligado a pagar medio salario, como
+									se alude en dicho Artículo; y
+									c) La prisión provisional, la prisión simple y el arresto
+									menor que en contra del trabajador se decreten.
+									Esta regla rige en el caso de la prisión provisional,
+									siempre que la misma sea seguida de auto que la
+									reforme, de sentencia absolutoria o si el trabajador
+									obtuviere su excarcelación bajo fianza, únicamente
+									cuando el delito por el que se le procesa no se
+									suponga cometido contra el patrono, sus parientes,
+									sus representantes o los intereses de uno u otros.
+									Sin embargo, en este último supuesto, el trabajador
+									que obtuviere reforma del auto de prisión provisional
+									o sentencia absolutoria, tendrá derecho a que el
+									patrono le cubra los salarios correspondientes
+									al tiempo que de conformidad con las normas
+									procesales respectivas deba durar el proceso,
+									salvo el lapso que el trabajador haya prestado sus
+									servicios a otro patrono, mientras estuvo en libertad
+									durante la tramitación del proceso.
+									Es obligación del trabajador dar aviso al patrono de
+									la causa que le impide asistir al trabajo, dentro de
+									los cinco días siguientes a aquél en que empezó
+									su prisión provisional, prisión simple o arresto
+									menor y reanudar su trabajo dentro de los dos
+									días siguientes a aquél en que obtuvo su libertad.
+									Si no lo hace, el patrono puede dar por terminado
+									el contrato, sin que ninguna de las partes incurra
+									en responsabilidad, salvo que la suspensión deba
+									continuar conforme al inciso b) del Artículo 66.
+									En estos casos rige la regla del último párrafo del
+									Artículo 67.
+									A solicitud del trabajador, el alcaide o jefe de la cárcel
+									bajo pena de multa de diez a quinientos quetzales,
+									que impondrá el respectivo Juez de Trabajo, debe
+									extenderle las constancias necesarias para la
+									prueba de los extremos a que se refiere el párrafo
+									segundo de este Artículo.',										
+               		'comment'=>'Causas de suspension de individual total'),
 
 
-             	array( 'number'=>'Articulo 70',
-             		'description'=>'Son causas de suspensión colectiva
-									parcial de los contratos de trabajo:
-									a) La huelga legalmente declarada, cuyas causas
-									hayan sido estimadas imputables al patrono por los
-									Tribunales de Trabajo y Previsión Social;
-									b) Los casos previstos por los Artículos 251 y 252,
-									párrafo segundo;37
-									c) La falta de materia prima para llevar adelante
-									los trabajos, siempre que sea imputable al patrono,
-									según declaración de los mismos tribunales; y
-									d) Las causas que enumera el Artículo siguiente,
-									siempre que los patronos hayan accedido de previo
-									o accedan después a pagar a sus trabajadores,
-									durante la vigencia de la suspensión, sus salarios
-									en parte o en todo.
-									En el caso del inciso a) rige la regla del Artículo
-									242, párrafo segundo, y en el caso del inciso c)
-									los tribunales deben graduar discrecionalmente,
-									según el mérito de los autos, la cuantía de los
-									salarios caídos que el patrono debe pagar a sus
-									trabajadores.'
-																		
-               		'comment'=>'Causas de suspension colectiva parcial <br>
-               					Huelga legal Justa'  
+             	
 
 
 

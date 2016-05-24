@@ -15,6 +15,7 @@ class CreateArticlesWorkTable extends Migration
         Schema::create('articlesWork', function (Blueprint $table) {
             $table->increments('id');
             $table->string('number');
+            $table->longText('begin');
             $table->longText('description');
             $table->longText('comment');
             $table->timestamps();

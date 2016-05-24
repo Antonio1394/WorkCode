@@ -23,7 +23,7 @@
                 <div class="col-md-3 col-sm-6 service">
                     <i class="fa fa-institution"></i>
                     <h4><strong>{{$article->number }}</strong></h4>
-                    <p>{{substr($article->description, 0, 100) }}...<a href="{{ url('detail/'.$article->id) }}">ver más</a></p>
+                    <p>{!!substr($article->begin, 0, 100) !!}...<a href="{{ url('detail/'.$article->id) }}">ver más</a></p>
                     
                 </div>
                 @endforeach
