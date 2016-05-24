@@ -469,7 +469,7 @@ class WorkTableSeeder extends Seeder
                		'comment'=>''),
 
 			 array( 'number'=>'Articulo 62',
-			 		'begin'=>'Se prohíbe a los patronos:<br>
+			 		'begin'=>'Se prohíbe a los patronos:
 									a) Inducir o exigir a sus trabajadores que compren
 									sus artículos de consumo a determinados
 									establecimientos o personas;',
@@ -504,7 +504,8 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>''),
 
-			 array( 'number'=>'Articulo 65',
+			 array( 'number'=>'Articulo 62',
+
 			 		'begin'=>'Hay suspensión de los contratos
 								de trabajo cuando una o las dos partes que
 								forman la relación laboral deja o dejan de cumplir
@@ -597,6 +598,73 @@ class WorkTableSeeder extends Seeder
 									segundo de este Artículo.',										
                		'comment'=>'Causas de suspension de individual total'),
 
+			 array( 'number'=>'Articulo 70',
+			 		'begin'=>'Son causas de suspensión colectiva
+									parcial de los contratos de trabajo:
+									a) La huelga legalmente declarada, cuyas causas
+									hayan sido estimadas imputables al patrono por los
+									Tribunales de Trabajo y Previsión Social;
+									b) Los casos previstos por los Artículos 251 y 252,
+									párrafo segundo;',
+             		'description'=>'Son causas de suspensión colectiva
+									parcial de los contratos de trabajo:
+									a) La huelga legalmente declarada, cuyas causas
+									hayan sido estimadas imputables al patrono por los
+									Tribunales de Trabajo y Previsión Social;
+									b) Los casos previstos por los Artículos 251 y 252,
+									párrafo segundo;<br>
+									c) La falta de materia prima para llevar adelante
+									los trabajos, siempre que sea imputable al patrono,
+									según declaración de los mismos tribunales; y<br>
+									d) Las causas que enumera el Artículo siguiente,
+									siempre que los patronos hayan accedido de previo
+									o accedan después a pagar a sus trabajadores,
+									durante la vigencia de la suspensión, sus salarios
+									en parte o en todo.
+									En el caso del inciso a) rige la regla del Artículo
+									242, párrafo segundo, y en el caso del inciso c)
+									los tribunales deben graduar discrecionalmente,
+									según el mérito de los autos, la cuantía de los
+									salarios caídos que el patrono debe pagar a sus
+									trabajadores.',										
+               		'comment'=>'Suspensión colectiva Parcial<br>
+               					Primer Parrafo: Huelga Legal justa. debe ser declarada por un juez.'),
+
+			 array( 'number'=>'Articulo 71',
+			 		'begin'=>'Son causas de suspensión colectiva
+							  total de los contratos de trabajo, en que ambas
+							  partes quedan relevadas de sus obligaciones
+							  fundamentales, sin responsabilidad para ellas:
+							  a) La huelga legalmente declarada, cuyas causas
+							  no hayan sido estimadas imputables al patrono por
+							  los Tribunales de Trabajo y Previsión Social;
+							  b) El paro legalmente declarado;
+							  c) La falta de materia prima para llevar adelante los
+							  trabajos, siempre que no sea imputable al patrono;
+							  d) La muerte o la incapacidad del patrono, cuando
+							  tenga como consecuencia necesaria, inmediata y
+							  directa la suspensión del trabajo; y',
+             		'description'=>'Son causas de suspensión colectiva
+							  total de los contratos de trabajo, en que ambas
+							  partes quedan relevadas de sus obligaciones
+							  fundamentales, sin responsabilidad para ellas:<br>
+							  a) La huelga legalmente declarada, cuyas causas
+							  no hayan sido estimadas imputables al patrono por
+							  los Tribunales de Trabajo y Previsión Social;
+							  b) El paro legalmente declarado;<br>
+						      c) La falta de materia prima para llevar adelante los
+							  trabajos, siempre que no sea imputable al patrono;
+						      d) La muerte o la incapacidad del patrono, cuando
+							  tenga como consecuencia necesaria, inmediata y<br>
+						      directa la suspensión del trabajo; y<br>
+						      e) Los demás casos constitutivos de fuerza mayor
+							  o caso fortuito cuando traigan como consecuencia
+							  necesaria, inmediata y directa la suspensión del
+							  trabajo.',
+																		
+               		'comment'=>'Causa de suspensión colectiva total'),
+
+			
 			              	
 
 
