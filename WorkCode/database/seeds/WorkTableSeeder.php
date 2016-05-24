@@ -504,7 +504,7 @@ class WorkTableSeeder extends Seeder
 																		
                		'comment'=>''),
 
-			 array( 'number'=>'Articulo 62',
+			 array( 'number'=>'Articulo 65',
 
 			 		'begin'=>'Hay suspensión de los contratos
 								de trabajo cuando una o las dos partes que
@@ -663,6 +663,375 @@ class WorkTableSeeder extends Seeder
 							  trabajo.',
 																		
                		'comment'=>'Causa de suspensión colectiva total'),
+
+			 array( 'number'=>'Articulo 76',
+			 		'begin'	=>'	Hay terminación de los contratos
+								de trabajo cuando una o las dos partes que forman
+								la relación laboral le ponen fin a ésta, cesándola
+								efectivamente, ya sea por voluntad de una de ellas,
+								por mutuo consentimiento o por causa imputable a
+								la otra, o en que ocurra lo mismo, por disposición
+								de la ley, en cuyas circunstancias se extinguen los
+								derechos y obligaciones que emanan de dichos
+								contratos.',
+             		'description'=>'Hay terminación de los contratos
+									de trabajo cuando una o las dos partes que forman
+									la relación laboral le ponen fin a ésta, cesándola
+									efectivamente, ya sea por voluntad de una de ellas,
+									por mutuo consentimiento o por causa imputable a
+									la otra, o en que ocurra lo mismo, por disposición
+									de la ley, en cuyas circunstancias se extinguen los
+									derechos y obligaciones que emanan de dichos
+									contratos.',
+																		
+               		'comment'=>'Despido y renuncia'),
+
+			 array( 'number'=>'Articulo 77',
+			 		'begin'	=>'	Son causas justas que facultan
+								al patrono para dar por terminado el contrato de
+								trabajo, sin responsabilidad de su parte:
+								a) Cuando el trabajador se conduzca durante sus
+								labores en forma abiertamente inmoral o acuda a la
+								injuria, a la calumnia o a las vías de hecho contra su
+								patrono o los representantes de éste en la dirección
+								de las labores;
+								b) Cuando el trabajador cometa alguno de los
+								actos enumerados en el inciso anterior contra
+								algún compañero de trabajo, durante el tiempo
+								que se ejecuten las labores, siempre que como
+								consecuencia de ello se altere gravemente la
+								disciplina o se interrumpan las labores;
+								c) Cuando el trabajador, fuera del lugar donde se
+								ejecutan las labores y en horas que sean de trabajo,',
+             		'description'=>'Son causas justas que facultan
+								al patrono para dar por terminado el contrato de
+								trabajo, sin responsabilidad de su parte:<br>
+								a) Cuando el trabajador se conduzca durante sus
+								labores en forma abiertamente inmoral o acuda a la
+								injuria, a la calumnia o a las vías de hecho contra su
+								patrono o los representantes de éste en la dirección
+								de las labores;<br>
+								b) Cuando el trabajador cometa alguno de los
+								actos enumerados en el inciso anterior contra
+								algún compañero de trabajo, durante el tiempo
+								que se ejecuten las labores, siempre que como
+								consecuencia de ello se altere gravemente la
+								disciplina o se interrumpan las labores;<br>
+								c) Cuando el trabajador, fuera del lugar donde se
+								ejecutan las labores y en horas que sean de trabajo,
+								acuda a la injuria, a la calumnia o a las vías de
+								hecho contra su patrono o contra los representantes
+								de éste en la dirección de las labores, siempre que
+								dichos actos no hayan sido provocados y que,
+								como consecuencia de ellos, se haga imposible
+								la convivencia y armonía para la realización del
+								trabajo;<br>
+								d) Cuando el trabajador cometa algún delito o falta
+								contra la propiedad en perjuicio del patrono, de
+								alguno de sus compañeros de trabajo o en perjuicio
+								de un tercero en el interior del establecimiento;
+								asimismo, cuando cause intencionalmente,
+								por descuido o negligencia, daño material en
+								las máquinas, herramientas, materias primas,
+								productos y demás objetos relacionados, en forma
+								inmediata o indudable con el trabajo;<br><br>
+								e) Cuando el trabajador revele los secretos a que
+								alude el inciso g) del Artículo 63;<br>
+								f) Cuando el trabajador deje de asistir al trabajo sin
+								permiso del patrono o sin causa justificada, durante
+								dos días laborales completos y consecutivos o
+								durante seis medios días laborales en un mismo
+								mes calendario.
+								La justificación de la inasistencia se debe hacer
+								al momento de reanudarse las labores, si no se
+								hubiere hecho antes;<br>
+								g) Cuando el trabajador se niegue de manera
+								manifiesta a adoptar las medidas preventivas o a
+								seguir los procedimientos indicados para evitar
+								accidentes o enfermedades; o cuando el trabajador
+								se niegue en igual forma a acatar las normas o
+								instrucciones que el patrono o sus representantes en
+								la dirección de los trabajos, le indiquen con claridad
+								para obtener la mayor eficacia y rendimiento en las
+								labores;<br>
+								h) Cuando infrinja cualquiera de las prohibiciones
+								del Artículo 64, o del Reglamento Interior de Trabajo
+								debidamente aprobado, después de que el patrono
+								lo aperciba una vez por escrito. No será necesario
+								el apercibimiento en el caso de embriaguez cuando,
+								como consecuencia de ella, se ponga en peligro la
+								vida o la seguridad de las personas o de los bienes
+								del patrono;<br>
+								i) Cuando el trabajador, al celebrar el contrato
+								haya inducido en error al patrono, pretendiendo
+								tener cualidades, condiciones o conocimientos
+								que evidentemente no posee, o presentándole
+								referencias o atestados personales cuya falsedad
+								éste luego compruebe, o ejecutando su trabajo en
+								forma que demuestre claramente su incapacidad en
+								la realización de las labores para las cuales haya
+								sido contratado;<br>
+								j) Cuando el trabajador sufra la pena de arresto
+								mayor o se le imponga prisión correccional por
+								sentencia ejecutoriada; y<br>
+								k) Cuando el trabajador incurra en cualquier otra
+								falta grave a las obligaciones que le imponga el
+								contrato.
+								Es entendido que siempre que el despido se funde
+								en un hecho sancionado también por las leyes
+								penales, queda a salvo el derecho del patrono para
+								entablar las acciones correspondientes ante las
+								autoridades penales comunes.',
+																		
+               		'comment'=>'Despido directo Justificado'),
+
+			 array( 'number'=>'Articulo 78',
+			 		'begin'=>'La terminación del contrato de
+								trabajo conforme a una o varías de las causas
+								enumeradas que el Artículo anterior, surte efectos
+								desde que el patrono lo comunique por escrito al
+								trabajador indicándole la causa del despido y éste
+								cese efectivamente sus labores, pero el trabajador',
+             		'description'=>'La terminación del contrato de
+									trabajo conforme a una o varías de las causas
+									enumeradas que el Artículo anterior, surte efectos
+									desde que el patrono lo comunique por escrito al
+									trabajador indicándole la causa del despido y éste
+									cese efectivamente sus labores, pero el trabajador
+									goza del derecho de emplazar al patrono ante los
+									Tribunales de Trabajo y Previsión Social, antes de
+									que transcurra el término de prescripción39, con el
+									objeto de que pruebe la justa causa en que se fundó
+									el despido. Si el patrono no prueba dicha causa,
+									debe pagar al trabajador:<br>
+									a) Las indemnizaciones que según este Código le
+									pueda corresponder; y<br>
+									b) A título de daños y perjuicios, los salarios que el
+									trabajador ha dejado de percibir desde el momento
+									del despido hasta el pago de su indemnización,
+									hasta un máximo de doce (12) meses de salario y
+									las costas judiciales.',										
+               		'comment'=>'Inciso a:indemnización por tiempo servido.'),
+
+			 array( 'number'=>'Articulo 79',
+			 		'begin'=>'Son causas justas que facultan al
+								trabajador para dar por terminado su contrato de
+								trabajo, sin responsabilidad de su parte:
+								a) Cuando el patrono no le pague el salario completo
+								que le corresponda, en la fecha y lugar convenidos
+								o acostumbrados. Quedan a salvo las deducciones
+								autorizadas por la ley;
+								b) Cuando el patrono incurra durante el trabajo en
+								falta de probidad u honradez, o se conduzca en
+								forma abiertamente inmoral o acuda a la injuria,',
+             		'description'=>'Son causas justas que facultan al
+									trabajador para dar por terminado su contrato de
+									trabajo, sin responsabilidad de su parte:<br>
+									a) Cuando el patrono no le pague el salario completo
+									que le corresponda, en la fecha y lugar convenidos
+									o acostumbrados. Quedan a salvo las deducciones
+									autorizadas por la ley;<br>
+									b) Cuando el patrono incurra durante el trabajo en
+									falta de probidad u honradez, o se conduzca en
+									forma abiertamente inmoral o acuda a la injuria,
+									a la calumnia o a las vías de hecho contra el
+									trabajador;<br>
+									c) Cuando el patrono directamente, uno de sus
+									parientes, un dependiente suyo o una de las
+									personas que viven en la41 casa del primero,
+									cometa con su autorización o tolerancia, alguno de
+									los actos enumerados en él inciso anterior contra el
+									trabajador;<br>
+									d) Cuando el patrono directamente o por medio de
+									sus familiares o dependientes, cause maliciosamente
+									un perjuicio material en las herramientas o útiles del
+									trabajador;<br>
+									e) Cuando el patrono o su representante en la
+									dirección de las labores acuda a la injuria, a la
+									calumnia o a las vías de hecho contra el trabajador
+									fuera del lugar donde se ejecutan las labores
+									y en horas que no sean de trabajo, siempre que
+									dichos actos no hayan sido provocados y que
+									como consecuencia de ellos se hagan imposibles
+									la convivencia y armonía para el cumplimiento del
+									contrato;<br>
+									f) Cuando el patrono, un miembro de su familia o su
+									representante en la dirección de las labores u otro
+									trabajador esté atacado por alguna enfermedad
+									contagiosa, siempre que el trabajador deba
+									permanecer en contacto inmediato con la persona
+									de que se trate;<br>
+									g) Cuando exista peligro grave para la seguridad
+									o salud del trabajador o de su familia, ya sea por
+									carecer de condiciones higiénicas el lugar de
+									trabajo, por excesiva insalubridad de la región
+									o porque el patrono no cumpla con las medidas
+									de prevención y seguridad que las disposiciones
+									legales establezcan;<br>
+									h) Cuando el patrono comprometa con su
+									imprudencia o descuido inexcusable, la seguridad
+									del lugar donde se realizan las labores o la de las
+									personas que allí se encuentren;
+									i) Cuando el patrono viole alguna de las prohibiciones
+									contenidas en el Artículo 62;<br>
+									j) Cuando el patrono o su representante en la
+									dirección de las labores traslade al trabajador a un
+									puesto de menor categoría o con menos sueldo o le
+									altere fundamental o permanentemente cualquiera
+									otra de sus condiciones de trabajo. Sin embargo,
+									en el caso de que el trabajador hubiere ascendido
+									a un cargo que comprenda funciones diferentes a
+									las desempeñadas por el interesado en el cargo
+									anterior, el patrono dentro del período de prueba
+									puede volverlo a su cargo original, si establece la
+									manifiesta incompetencia de éste en el desempeño
+									del puesto al que fue promovido. Cuando el ascenso
+									o aumento de salario se hiciere en forma temporal,
+									en virtud de circunstancias calificadas, el patrono
+									tampoco incurre en responsabilidad al volver al
+									trabajador a sus condiciones originales; y<br>
+									k) Cuando el patrono incurra en cualquiera otra
+									falta grave a las obligaciones que le imponga el
+									contrato.
+									La regla que contiene el párrafo final del Artículo 77
+									rige también a favor de los trabajadores.',										
+               		'comment'=>'Despido indirecto.'),
+
+			 array( 'number'=>'Articulo 82',
+			 		'begin'=>'Si el contrato de trabajo por tiempo
+								indeterminado concluye una vez transcurrido el
+								período de prueba, por razón de despido injustificado
+								del trabajador, o por alguna de las causas previstas
+								en el Artículo 79, el patrono debe pagar a éste una
+								indemnización por tiempo servido equivalente a un
+								mes de salario por cada año de servicio continuos47
+								y si los servicios no alcanzan a un año, en forma
+								proporcional al plazo trabajado. Para los efectos del
+								cómputo de servicios continuos, se debe tomar en
+								cuenta la fecha en que se haya iniciado la relación',
+             		'description'=>'Si el contrato de trabajo por tiempo
+									indeterminado concluye una vez transcurrido el
+									período de prueba, por razón de despido injustificado
+									del trabajador, o por alguna de las causas previstas
+									en el Artículo 79, el patrono debe pagar a éste una
+									indemnización por tiempo servido equivalente a un
+									mes de salario por cada año de servicio continuos47
+									y si los servicios no alcanzan a un año, en forma
+									proporcional al plazo trabajado. Para los efectos del
+									cómputo de servicios continuos, se debe tomar en
+									cuenta la fecha en que se haya iniciado la relación
+									de trabajo, cualquiera que ésta sea.
+									La indemnización por tiempo servido se rige,
+									además, por estas reglas:<br>
+									a) Su importe no puede ser objeto de compensación,
+									venta o cesión, ni puede ser embargado, salvo en
+									los términos del Artículo 97;<br>
+									b) Su importe debe calcularse tomando como
+									base el promedio de los salarios devengados por
+									el trabajador durante los últimos seis meses que
+									tengan de vigencia el contrato o el tiempo que haya
+									trabajado, si no se ha ajustado dicho término;
+									c) La continuidad del trabajo no se interrumpe por
+									enfermedad, vacaciones, licencias, huelga legal
+									u otras causas análogas que según este Código
+									suspenden y no terminan el contrato de trabajo;<br>
+									d) Es nula ipso jure la cláusula del contrato que
+									tienda a interrumpir la continuidad de los servicios
+									prestados o por prestarse;<br>
+									e) El patrono que despida a un trabajador por causa
+									de enfermedad o invalidez permanente o vejez, no
+									está obligado a satisfacer dicha indemnización,
+									siempre que el asalariado de que se trate esté
+									protegido por los beneficios correlativos del
+									Instituto Guatemalteco de Seguridad Social y
+									quede devengando, desde el momento mismo de
+									la cesación del contrato, una pensión de invalidez,
+									enfermedad o vejez, cuyo valor actuarial sea
+									equivalente o mayor a la expresada indemnización
+									por tiempo servido.
+									Si la pensión que cubra el Instituto Guatemalteco
+									de Seguridad Social fuere menor, según su valor
+									actuarial que conforme la expectativa de vida del
+									trabajador, determine dicho Instituto, el patrono
+									queda obligado únicamente a cubrirle la diferencia.
+									Si no gozare de dicha protección, el patrono queda
+									obligado a pagar al trabajador la indemnización por
+									tiempo servido que le corresponda.
+									El trabajador que por enfermedad o invalidez,
+									permanentes o por vejez, se vea imposibilitado de
+									continuar en el desempeño de las atribuciones de
+									su cargo y por cualquiera de esas circunstancias,
+									que debe justificar previamente, se retire, tiene
+									derecho a que el patrono le cubra el cincuenta
+									por ciento de la indemnización prevista en este
+									Artículo, siempre que no goce de los beneficios
+									correlativos del Instituto Guatemalteco de Seguridad
+									Social, pero si disfrutándolos, éste únicamente
+									le reconoce una pensión cuyo valor actuarial sea
+									menor que la que le correspondería conforme a la
+									regla inmediatamente anterior, de acuerdo con la
+									expectativa de vida que para dicho trabajador fije
+									el indicado Instituto, el patrono sólo está obligado
+									a cubrirle en el acto del retiro, la diferencia que
+									resulte para completar tal indemnización. En el caso
+									de que la pensión que fije, al trabajador el Instituto
+									Guatemalteco de Seguridad Social, sea superior o
+									igual a la indemnización indicada en este párrafo,
+									según las normas expresadas, el patrono no tiene
+									obligación alguna.',										
+               		'comment'=>'Indemnización por tiempo servido es equivalente a un mes de salario por cada año trabajado, si el tiempo no alcanza un año sera proporcional al tiempo trabajado.<br>
+               			Inciso e:Despido por IVS invalidez, vejez, '),
+
+			 array( 'number'=>'Articulo 82',
+			 		'begin'=>'El trabajador que desee dar por
+								concluido su contrato por tiempo indeterminado sin
+								justa causa o atendiendo únicamente a su propia
+								voluntad y una vez que haya transcurrido el período
+								de prueba debe dar aviso previo al patrono de
+								acuerdo con lo que expresamente se estipule en
+								dicho contrato, o en su defecto de conformidad con
+								las siguientes reglas:
+								a) Antes de ajustar seis meses de servicios',
+             		'description'=>'El trabajador que desee dar por
+									concluido su contrato por tiempo indeterminado sin
+									justa causa o atendiendo únicamente a su propia
+									voluntad y una vez que haya transcurrido el período
+									de prueba debe dar aviso previo al patrono de
+									acuerdo con lo que expresamente se estipule en
+									dicho contrato, o en su defecto de conformidad con
+									las siguientes reglas:<br>
+									a) Antes de ajustar seis meses de servicios
+									continuos, con una semana de anticipación por lo
+									menos;<br>
+									b) Después de seis meses de servicios continuos
+									pero menos de un año, con diez, días de anticipación
+									por lo menos;<br>
+									c) Después de un año de servicios continuos
+									pero menos de cinco años, con dos semanas de
+									anticipación por lo menos; y<br>
+									d) Después de cinco años de servicios continuos,
+									con un mes de anticipación por lo menos.
+									Dichos avisos se deben dar siempre por escrito,
+									pero si el contrato es verbal, el trabajador puede
+									darlo en igual forma en caso de que lo haga ante
+									dos testigos; no pueden ser compensados pagando
+									el trabajador al patrono una cantidad igual al salario
+									actual correspondiente a las expresadas plazas,
+									salvo que este último lo consienta; y el patrono,
+									una vez que el trabajador le haya dado el aviso
+									respectivo, puede ordenar a éste que cese en
+									su trabajo, sea por haber encontrado sustituto o
+									por cualquier otro motivo, sin incurrir por ello en
+									responsabilidad.<br>
+									Son aplicables al preaviso las reglas de los incisos
+									c) y d) del Artículo 82. Igualmente lo es la del inciso
+									b) del mismo texto legal, en todos aquellos casos
+									en que proceda calcular el importe en dinero del
+									plazo respectivo.',										
+               		'comment'=>''),
+
+
+
 
 			
 			              	
