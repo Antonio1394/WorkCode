@@ -982,7 +982,7 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'Indemnización por tiempo servido es equivalente a un mes de salario por cada año trabajado, si el tiempo no alcanza un año sera proporcional al tiempo trabajado.<br>
                			Inciso e:Despido por IVS invalidez, vejez, '),
 
-			 array( 'number'=>'Articulo 82',
+			 array( 'number'=>'Articulo 83',
 			 		'begin'=>'El trabajador que desee dar por
 								concluido su contrato por tiempo indeterminado sin
 								justa causa o atendiendo únicamente a su propia
@@ -1028,7 +1028,38 @@ class WorkTableSeeder extends Seeder
 									b) del mismo texto legal, en todos aquellos casos
 									en que proceda calcular el importe en dinero del
 									plazo respectivo.',										
+               		'comment'=>'Renuncia igual a pre-aviso'),
+
+			 array( 'number'=>'Articulo 87',
+			 		'begin'=>'A la expiración de todo contrato de
+								trabajo, por cualquier causa que éste termine, el
+								patrono debe dar al trabajador un documento que
+								exprese únicamente:
+								a) La fecha de su entrada y de su salida;
+								b) La clase de trabajo ejecutado; y
+								c) El salario ordinario y extraordinario devengado
+								durante el último período del pago.
+								Si el trabajador lo desea, el certificado debe
+								determinar también:
+								a) La manera como trabajó; y
+								b) La causa o causas de la terminación del
+								contrato.',
+             		'description'=>'A la expiración de todo contrato de
+									trabajo, por cualquier causa que éste termine, el
+									patrono debe dar al trabajador un documento que
+									exprese únicamente:<br>
+									a) La fecha de su entrada y de su salida;
+									b) La clase de trabajo ejecutado; y<br><br>
+									c) El salario ordinario y extraordinario devengado
+									durante el último período del pago.<br>
+									Si el trabajador lo desea, el certificado debe
+									determinar también:
+									a) La manera como trabajó; y
+									b) La causa o causas de la terminación del
+									contrato.',										
                		'comment'=>''),
+
+
 
 
 
