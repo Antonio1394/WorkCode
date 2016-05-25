@@ -1087,6 +1087,123 @@ class WorkTableSeeder extends Seeder
                		'comment'=>'Definicion del salario<br>
                					<strong>Tercer Parrafo</strong>Sistema de calculo de salario. el mas utilizado es por unidad de tiempo.'),
 
+			 array( 'number'=>'Articulo 89',
+			 		'begin'=>'Para fijar el importe del salario en
+									cada clase de trabajo, se deben tomar en cuenta la
+									intensidad y calidad del mismo, clima y condiciones
+									de vida.
+									A trabajo igual, desempeñado en puesto y
+									condiciones de eficiencia y antigüedad dentro de
+									la misma empresa, también iguales, corresponderá
+									salario igual, el que debe comprender los pagos
+									que se hagan al trabajador a cambio de su labor',
+             		'description'=>'Para fijar el importe del salario en
+									cada clase de trabajo, se deben tomar en cuenta la
+									intensidad y calidad del mismo, clima y condiciones
+									de vida.
+									A trabajo igual, desempeñado en puesto y
+									condiciones de eficiencia y antigüedad dentro de
+									la misma empresa, también iguales, corresponderá
+									salario igual, el que debe comprender los pagos
+									que se hagan al trabajador a cambio de su labor
+									ordinaria.
+									En las demandas que entablen las trabajadoras
+									relativas a la discriminación salarial por razón de
+									sexo, queda el patrono obligado a demostrar que
+									el trabajo que realiza la demandante es de inferior
+									calidad y valor.',										
+               		'comment'=>'D)El otro sistema es el del precio alsado al destajo<br>
+               					E) salario en especie articulo 90 del código de trabajo.<br>
+               					<strong>Segundo Parrafo:</strong>Principio de igualdad salarial'),
+
+			 array( 'number'=>'Articulo 90',
+			 		'begin'=>'El salario debe pagarse
+									exclusivamente en moneda de curso legal.
+									Se prohíbe pagar el salario, total o parcialmente, en
+									mercadería, vales, fichas, cupones o cualquier otro',
+             		'description'=>'El salario debe pagarse
+									exclusivamente en moneda de curso legal.
+									Se prohíbe pagar el salario, total o parcialmente, en
+									mercadería, vales, fichas, cupones o cualquier otro
+									signo representativo con que se pretenda sustituir
+									la moneda. Las sanciones legales se deben aplicar
+									en su máximum cuando las órdenes de pago sólo
+									sean canjeables por mercaderías en determinados
+									establecimientos.<br>
+									Es entendido que la prohibición que precede no
+									comprende la entrega de vales, fichas u otro medio
+									análogo de cómputo del salario, siempre que al
+									vencimiento de cada período de pago el patrono
+									cambie el equivalente exacto de unos u otras en
+									moneda de curso legal.<br><br>
+									No obstante las disposiciones anteriores,
+									los trabajadores campesinos que laboren en
+									explotaciones agrícolas o ganaderas pueden
+									percibir el pago de su salario, hasta en un treinta por
+									ciento del importe total de éste como máximum, en
+									alimentos y demás artículos análogos destinados
+									a su consumo personal inmediato o al de sus
+									familiares que vivan y dependan económicamente
+									de él, siempre que el patrono haga el suministro a
+									precio de costo o menos.<br>
+									Asimismo, las ventajas económicas, de cualquier
+									naturaleza que sean, que se otorguen a los
+									trabajadores en general por la prestación de sus
+									servicios, salvo pacto en contrario, debe entenderse
+									que constituyen el treinta por ciento del importe total
+									del salario devengado.',										
+               		'comment'=>'Ventajas económicas.'),
+
+			 array( 'number'=>'Articulo 91',
+			 		'begin'=>'El monto del salario debe ser
+								determinado por patronos y trabajadores, pero no
+								puede ser inferior al que se fije como mínimo de
+								acuerdo con el capítulo siguiente.',
+             		'description'=>'El monto del salario debe ser
+								determinado por patronos y trabajadores, pero no
+								puede ser inferior al que se fije como mínimo de
+								acuerdo con el capítulo siguiente.',										
+               		'comment'=>'Obligación del patrono a pagar salario mínimo.'),
+
+			 array( 'number'=>'Articulo 92',
+			 		'begin'=>'Patronos y trabajadores deben
+									fijar el plazo para el pago del salario, sin que
+									dicho plazo pueda ser mayor de una quincena
+									para los trabajadores manuales, ni de un mes
+									para los trabajadores intelectuales y los servicios
+									domésticos.',
+             		'description'=>'Patronos y trabajadores deben
+									fijar el plazo para el pago del salario, sin que
+									dicho plazo pueda ser mayor de una quincena
+									para los trabajadores manuales, ni de un mes
+									para los trabajadores intelectuales y los servicios
+									domésticos.
+									Si el salario consiste en participación en las
+									utilidades, ventas o cobros que haga el patrono,
+									se debe señalar una suma quincenal o mensual
+									que ha de recibir el trabajador, la cual debe ser
+									proporcionada a las necesidades de éste y el
+									monto probable de la participación que le llegue
+									a corresponder. La liquidación definitiva se debe
+									hacer por lo menos cada año.',										
+               		'comment'=>'Periodo de Pago'),
+
+			 array( 'number'=>'Articulo 94',
+			 		'begin'=>'El salario debe pagarse directamente
+									al trabajador o a la persona de su familia que él
+									indique por escrito o en acta levantada por una
+									autoridad de trabajo.',
+             		'description'=>'El salario debe pagarse directamente
+									al trabajador o a la persona de su familia que él
+									indique por escrito o en acta levantada por una
+									autoridad de trabajo.',										
+               		'comment'=>'Obligación de pagar directamente el salario al trabajador o familiar.'),
+
+
+
+
+
+
 
 
 
