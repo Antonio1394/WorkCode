@@ -1059,6 +1059,35 @@ class WorkTableSeeder extends Seeder
 									contrato.',										
                		'comment'=>''),
 
+			 array( 'number'=>'Articulo 88',
+			 		'begin'=>'Salario o sueldo es la retribución
+								que el patrono debe pagar al trabajador en virtud
+								del cumplimiento del contrato de trabajo o de la
+								relación de trabajo vigente entre ambos.50
+								Salvo las excepciones legales, todo servicio
+								prestado por un trabajador a su respectivo patrono,
+								debe ser remunerado por éste.',
+             		'description'=>'Salario o sueldo es la retribución
+									que el patrono debe pagar al trabajador en virtud
+									del cumplimiento del contrato de trabajo o de la
+									relación de trabajo vigente entre ambos.50
+									Salvo las excepciones legales, todo servicio
+									prestado por un trabajador a su respectivo patrono,
+									debe ser remunerado por éste.
+									El cálculo de esta remuneración, para el efecto de
+									su pago, puede pactarse:<br>
+									a) Por unidad de tiempo (por mes, quincena,
+									semana, día u hora);<br>
+									b) Por unidad de obra (por pieza, tarea, precio
+									alzado o a destajo), y<br>
+									c) Por participación en las utilidades, ventas o
+									cobros que haga el patrono; pero en ningún caso
+									el trabajador deberá asumir los riesgos de pérdidas
+									que tenga el patrono.',										
+               		'comment'=>'Definicion del salario<br>
+               					<strong>Tercer Parrafo</strong>Sistema de calculo de salario. el mas utilizado es por unidad de tiempo.'),
+
+
 
 
 
