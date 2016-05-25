@@ -15,11 +15,11 @@ class WorkTableSeeder extends Seeder
         DB::table('articlesWork')->insert(array(
 
              array( 'number'=>'Articulo 5',
-             		'begin'=>'Intermediario es toda persona que 
+             		'begin'=>'Intermediario es toda persona que
 									contrata en nombre propio los servicios de uno o
 									más trabajadores para que ejecuten algún trabajo
 									en beneficio de un patrono. Este último queda',
-             		'description'=>'Intermediario es toda persona que 
+             		'description'=>'Intermediario es toda persona que
 									contrata en nombre propio los servicios de uno o
 									más trabajadores para que ejecuten algún trabajo
 									en beneficio de un patrono. Este último queda
@@ -79,8 +79,8 @@ class WorkTableSeeder extends Seeder
 									equidad, la costumbre o el uso locales, en armonía
 									con dichos principios; y por último, de acuerdo con
 									los principios y leyes de derecho común.',
-               		'comment'=>'Como se integra el sistema de representación de las normas laborales: de acuerdo a los principios.'),             
-            
+               		'comment'=>'Como se integra el sistema de representación de las normas laborales: de acuerdo a los principios.'),
+
              array( 'number'=>'Articulo 18',
              		'begin'=>'Contrato individual de trabajo,
 									sea cual fuere su denominación, es el vínculo
@@ -96,7 +96,7 @@ class WorkTableSeeder extends Seeder
 									continuada y dirección inmediata o delegada de
 									esta última, a cambio de una retribución de cualquier
 									clase o forma.',
-               		'comment'=>'Contrato de Trabajo.'),  
+               		'comment'=>'Contrato de Trabajo.'),
 
              array( 'number'=>'Articulo 19',
              		'begin'=>'Primer Parrafo: Para que el contrato individual de
@@ -109,7 +109,7 @@ class WorkTableSeeder extends Seeder
 									de la prestación de los servicios o de la ejecución
 									de la obra en las condiciones que determina el
 									Artículo precedente.',
-               		'comment'=>'Relacion de Trabajo.'),  
+               		'comment'=>'Relacion de Trabajo.'),
 
              array( 'number'=>'Articulo 20',
              		'begin'=>'El contrato individual de trabajo
@@ -134,9 +134,9 @@ class WorkTableSeeder extends Seeder
 									u objeto; la forma o modo de su desempeño; el
 									tiempo de su realización; el lugar de ejecución y las
 									retribuciones a que esté obligado el patrono.',
-																		
+
                		'comment'=>'<strong>Primer Parrafo: </strong> Efectos Individual del trabajo.
-               					<strong>Cuarto Parrafo: </strong>  Elementos de las condiciones del 											trabajo'), 
+               					<strong>Cuarto Parrafo: </strong>  Elementos de las condiciones del 											trabajo'),
 
            	 array( 'number'=>'Articulo 22',
            	 		'begin'=>'En todo contrato individual de
@@ -150,7 +150,7 @@ class WorkTableSeeder extends Seeder
 									trabajadores la Constitución, el presente Código,
 									sus reglamentos y las demás leyes de trabajo o de
 									previsión social.',
-																		
+
                		'comment'=>'Principios de Derechos mínimos'),
 
              array( 'number'=>'Articulo 23',
@@ -164,7 +164,7 @@ class WorkTableSeeder extends Seeder
 									las obligaciones derivadas de los contratos o de las
 									disposiciones legales, nacidas antes de la fecha de
 									la sustitución y hasta por el término de seis meses.',
-																		
+
                		'comment'=>'Sustitución total del patrono'),
 
              array( 'number'=>'Articulo 25',
@@ -196,7 +196,7 @@ class WorkTableSeeder extends Seeder
 									el contrato individual de trabajo debe entenderse
 									para obra determinada, siempre que se reúnan las
 									condiciones que indica el párrafo anterior.',
-																		
+
                		'comment'=>'Clasificación de contratos de Trabajo'),
 
              array( 'number'=>'Articulo 26',
@@ -220,7 +220,7 @@ class WorkTableSeeder extends Seeder
 									sólo pueden celebrarse en los casos que así lo exija
 									la naturaleza accidental o temporal del servicio que
 									se va a prestar o de la obra que se va a ejecutar.',
-																		
+
                		'comment'=>'Contrato Tipo'),
 
              array( 'number'=>'Articulo 27',
@@ -249,7 +249,7 @@ class WorkTableSeeder extends Seeder
 									vencimiento de cada período de pago, el número de
 									días o jornadas trabajadas, o el de tareas u obras
 									realizadas.',
-																		
+
                		'comment'=>'Contrato Tipo'),
 
              array( 'number'=>'Articulo 28',
@@ -266,8 +266,8 @@ class WorkTableSeeder extends Seeder
 									medio de la autoridad de trabajo más cercana, dentro
 									de los quince días posteriores a su celebración,
 									modificación o novación.',
-																		
-               		'comment'=>'La Plena Prueba'), 
+
+               		'comment'=>'La Plena Prueba'),
 
              array( 'number'=>'Articulo 29',
              		'begin'=>'El contrato escrito de trabajo debe
@@ -324,8 +324,8 @@ class WorkTableSeeder extends Seeder
 									imprimir modelos de contratos para cada una de las
 									categorías de trabajo a fin de facilitar el cumplimiento
 									de esta disposición.',
-																		
-               		'comment'=>'Lo que debe de contener el contrato de trabajo'),   
+
+               		'comment'=>'Lo que debe de contener el contrato de trabajo'),
 
              array( 'number'=>'Articulo 30',
              		'begin'=>'La prueba plena del contrato escrito
@@ -345,8 +345,8 @@ class WorkTableSeeder extends Seeder
 									El contrato verbal se puede probar por los medios
 									generales de prueba y, al efecto, pueden ser testigos
 									los trabajadores al servicio de un mismo patrono.',
-																		
-               		'comment'=>'Principio de Tutelaridad'),  
+
+               		'comment'=>'Principio de Tutelaridad'),
 
              array( 'number'=>'Articulo 31',
              		'begin'=>'Tienen también capacidad para
@@ -371,7 +371,7 @@ class WorkTableSeeder extends Seeder
 									invalida los actos o contratos que haya celebrado
 									el ejecutado con sus trabajadores anteriormente a
 									dicha declaratoria.',
-																		
+
                		'comment'=>''),
 
 			 array( 'number'=>'Articulo 32',
@@ -390,7 +390,7 @@ class WorkTableSeeder extends Seeder
 									cargo el cuidado de ellos, según la determinación
 									que debe hacer la Inspección General de Trabajo
 									en las autorizaciones a que alude este Artículo.',
-																		
+
                		'comment'=>''),
 
 			 array( 'number'=>'Articulo 57',
@@ -406,7 +406,7 @@ class WorkTableSeeder extends Seeder
 									obligadamente se deben sujetar él y sus trabajadores
 									con motivo de la ejecución o prestación concreta
 									del trabajo.',
-																		
+
                		'comment'=>'Reglamento interior de trabajo'),
 
 		     array( 'number'=>'Articulo 58',
@@ -418,7 +418,7 @@ class WorkTableSeeder extends Seeder
 									empresa permanentemente diez o más trabajadores,
 									queda obligado a elaborar y poner en vigor su
 									respectivo reglamento interior de trabajo.',
-																		
+
                		'comment'=>''),
 
 			 array( 'number'=>'Articulo 60',
@@ -465,7 +465,7 @@ class WorkTableSeeder extends Seeder
 									presentación y compostura personal que éstos
 									deben guardar, según lo requiera la índole del
 									trabajo.',
-																		
+
                		'comment'=>''),
 
 			 array( 'number'=>'Articulo 62',
@@ -501,7 +501,7 @@ class WorkTableSeeder extends Seeder
 									anormal análoga; y<br>
 									h) Ejecutar cualquier otro acto que restrinja los
 									derechos que el trabajador tiene conforme la ley.',
-																		
+
                		'comment'=>''),
 
 			 array( 'number'=>'Articulo 65',
@@ -538,7 +538,7 @@ class WorkTableSeeder extends Seeder
 								trabajo vigentes en una empresa o lugar de trabajo,
 								y el patrono y sus trabajadores dejan de cumplir sus
 								obligaciones fundamentales.',
-																		
+
                		'comment'=>'Variante a: Las Causas, articulo 66<br>
                					Variante b: Causas Articulo 68<br>
                					Variante c: Causas Articulo 70<br>
@@ -595,7 +595,7 @@ class WorkTableSeeder extends Seeder
 									que impondrá el respectivo Juez de Trabajo, debe
 									extenderle las constancias necesarias para la
 									prueba de los extremos a que se refiere el párrafo
-									segundo de este Artículo.',										
+									segundo de este Artículo.',
                		'comment'=>'Causas de suspension de individual total'),
 
 			 array( 'number'=>'Articulo 70',
@@ -626,7 +626,7 @@ class WorkTableSeeder extends Seeder
 									los tribunales deben graduar discrecionalmente,
 									según el mérito de los autos, la cuantía de los
 									salarios caídos que el patrono debe pagar a sus
-									trabajadores.',										
+									trabajadores.',
                		'comment'=>'Suspensión colectiva Parcial<br>
                					Primer Parrafo: Huelga Legal justa. debe ser declarada por un juez.'),
 
@@ -661,7 +661,7 @@ class WorkTableSeeder extends Seeder
 							  o caso fortuito cuando traigan como consecuencia
 							  necesaria, inmediata y directa la suspensión del
 							  trabajo.',
-																		
+
                		'comment'=>'Causa de suspensión colectiva total'),
 
 			 array( 'number'=>'Articulo 76',
@@ -683,7 +683,7 @@ class WorkTableSeeder extends Seeder
 									de la ley, en cuyas circunstancias se extinguen los
 									derechos y obligaciones que emanan de dichos
 									contratos.',
-																		
+
                		'comment'=>'Despido y renuncia'),
 
 			 array( 'number'=>'Articulo 77',
@@ -782,7 +782,7 @@ class WorkTableSeeder extends Seeder
 								penales, queda a salvo el derecho del patrono para
 								entablar las acciones correspondientes ante las
 								autoridades penales comunes.',
-																		
+
                		'comment'=>'Despido directo Justificado'),
 
 			 array( 'number'=>'Articulo 78',
@@ -810,7 +810,7 @@ class WorkTableSeeder extends Seeder
 									trabajador ha dejado de percibir desde el momento
 									del despido hasta el pago de su indemnización,
 									hasta un máximo de doce (12) meses de salario y
-									las costas judiciales.',										
+									las costas judiciales.',
                		'comment'=>'Inciso a:indemnización por tiempo servido.'),
 
 			 array( 'number'=>'Articulo 79',
@@ -894,7 +894,7 @@ class WorkTableSeeder extends Seeder
 									falta grave a las obligaciones que le imponga el
 									contrato.
 									La regla que contiene el párrafo final del Artículo 77
-									rige también a favor de los trabajadores.',										
+									rige también a favor de los trabajadores.',
                		'comment'=>'Despido indirecto.'),
 
 			 array( 'number'=>'Articulo 82',
@@ -978,7 +978,7 @@ class WorkTableSeeder extends Seeder
 									Guatemalteco de Seguridad Social, sea superior o
 									igual a la indemnización indicada en este párrafo,
 									según las normas expresadas, el patrono no tiene
-									obligación alguna.',										
+									obligación alguna.',
                		'comment'=>'Indemnización por tiempo servido es equivalente a un mes de salario por cada año trabajado, si el tiempo no alcanza un año sera proporcional al tiempo trabajado.<br>
                			Inciso e:Despido por IVS invalidez, vejez, '),
 
@@ -1027,7 +1027,7 @@ class WorkTableSeeder extends Seeder
 									c) y d) del Artículo 82. Igualmente lo es la del inciso
 									b) del mismo texto legal, en todos aquellos casos
 									en que proceda calcular el importe en dinero del
-									plazo respectivo.',										
+									plazo respectivo.',
                		'comment'=>'Renuncia igual a pre-aviso'),
 
 			 array( 'number'=>'Articulo 87',
@@ -1056,7 +1056,7 @@ class WorkTableSeeder extends Seeder
 									determinar también:
 									a) La manera como trabajó; y
 									b) La causa o causas de la terminación del
-									contrato.',										
+									contrato.',
                		'comment'=>''),
 
 			 array( 'number'=>'Articulo 88',
@@ -1083,7 +1083,7 @@ class WorkTableSeeder extends Seeder
 									c) Por participación en las utilidades, ventas o
 									cobros que haga el patrono; pero en ningún caso
 									el trabajador deberá asumir los riesgos de pérdidas
-									que tenga el patrono.',										
+									que tenga el patrono.',
                		'comment'=>'Definicion del salario<br>
                					<strong>Tercer Parrafo</strong>Sistema de calculo de salario. el mas utilizado es por unidad de tiempo.'),
 
@@ -1111,7 +1111,7 @@ class WorkTableSeeder extends Seeder
 									relativas a la discriminación salarial por razón de
 									sexo, queda el patrono obligado a demostrar que
 									el trabajo que realiza la demandante es de inferior
-									calidad y valor.',										
+									calidad y valor.',
                		'comment'=>'D)El otro sistema es el del precio alsado al destajo<br>
                					E) salario en especie articulo 90 del código de trabajo.<br>
                					<strong>Segundo Parrafo:</strong>Principio de igualdad salarial'),
@@ -1151,7 +1151,7 @@ class WorkTableSeeder extends Seeder
 									trabajadores en general por la prestación de sus
 									servicios, salvo pacto en contrario, debe entenderse
 									que constituyen el treinta por ciento del importe total
-									del salario devengado.',										
+									del salario devengado.',
                		'comment'=>'Ventajas económicas.'),
 
 			 array( 'number'=>'Articulo 91',
@@ -1162,7 +1162,7 @@ class WorkTableSeeder extends Seeder
              		'description'=>'El monto del salario debe ser
 								determinado por patronos y trabajadores, pero no
 								puede ser inferior al que se fije como mínimo de
-								acuerdo con el capítulo siguiente.',										
+								acuerdo con el capítulo siguiente.',
                		'comment'=>'Obligación del patrono a pagar salario mínimo.'),
 
 			 array( 'number'=>'Articulo 92',
@@ -1185,7 +1185,7 @@ class WorkTableSeeder extends Seeder
 									proporcionada a las necesidades de éste y el
 									monto probable de la participación que le llegue
 									a corresponder. La liquidación definitiva se debe
-									hacer por lo menos cada año.',										
+									hacer por lo menos cada año.',
                		'comment'=>'Periodo de Pago'),
 
 			 array( 'number'=>'Articulo 94',
@@ -1196,7 +1196,7 @@ class WorkTableSeeder extends Seeder
              		'description'=>'El salario debe pagarse directamente
 									al trabajador o a la persona de su familia que él
 									indique por escrito o en acta levantada por una
-									autoridad de trabajo.',										
+									autoridad de trabajo.',
                		'comment'=>'Obligación de pagar directamente el salario al trabajador o familiar.'),
 
 			 array( 'number'=>'Articulo 95',
@@ -1217,7 +1217,7 @@ class WorkTableSeeder extends Seeder
 									Se prohíbe pagar el salario en lugares de recreo,
 									expendios comerciales o de bebidas alcohólicas u
 									otros análogos, salvo que se trate de trabajadores
-									que laboren en esa clase de establecimientos.',										
+									que laboren en esa clase de establecimientos.',
                		'comment'=>'Obligación de pagar el salario en el lugar de trabajo.'),
 
 			 array( 'number'=>'Articulo 96',
@@ -1247,7 +1247,7 @@ class WorkTableSeeder extends Seeder
 									quetzales o más, pero menores de trescientos
 									quetzales al mes; y<br>
 									e) El sesenta y cinco por ciento de los salarios
-									mensuales de trescientos quetzales o más.',										
+									mensuales de trescientos quetzales o más.',
                		'comment'=>'Medidas Protectoras del salario
 					1. Invargabilidad del salario. ver articulo 102 literal e de la constitución política de Guatemala'),
 
@@ -1265,7 +1265,7 @@ class WorkTableSeeder extends Seeder
 									que sean indispensables para ejercer su profesión
 									u oficio, salvo que se trate de satisfacer deudas
 									emanadas únicamente de la adquisición a crédito
-									de los mismos.',										
+									de los mismos.',
                		'comment'=>'inemvargalidad de herramientas de trabajo.'),
 
 			 array( 'number'=>'Articulo 102',
@@ -1292,10 +1292,10 @@ class WorkTableSeeder extends Seeder
 									más trabajadores, sin llegar al límite de diez, debe
 									llevar planillas de conformidad con los modelos
 									que adopte el Instituto Guatemalteco de Seguridad
-									Social.',										
+									Social.',
                		'comment'=>'Libro de pago de salario.'),
 
-			  array( 'number'=>'Articulo 105',
+			 array( 'number'=>'Articulo 105',
 			 		'begin'=>'Adscrita al Ministerio de Trabajo
 									y Previsión Social habrá una Comisión Nacional
 									del Salario, organismo técnico y consultivo de las
@@ -1342,13 +1342,13 @@ class WorkTableSeeder extends Seeder
 									dictará el reglamento que regule la organización
 									y el funcionamiento de la Comisión Nacional del
 									Salario y de las comisiones paritarias de salarios
-									mínimos.',										
+									mínimos.',
                		'comment'=>'Órganos que fijan el salario mínimo:
 								1. comisión nacional el salario,<br>
 								2. comisión paritaria de salarios mínimos<br>
 								3. el presidente de la república'),
 
-			   array( 'number'=>'Articulo 116',
+			 array( 'number'=>'Articulo 116',
 			 		'begin'=>'La jornada ordinaria de trabajo
 									efectivo diurno no puede ser mayor de ocho horas
 									diarias, ni exceder de un total de cuarenta y ocho
@@ -1359,7 +1359,7 @@ class WorkTableSeeder extends Seeder
 					'description'=>'La jornada ordinaria de trabajo
 									efectivo diurno no puede ser mayor de ocho horas
 									diarias, ni exceder de un total de cuarenta y ocho
-									horas a la semana.
+									horas a la semana.<br>
 									La jornada ordinaria de trabajo efectivo nocturno no
 									puede ser mayor de seis horas diarias, ni exceder
 									de un total de treinta y seis horas a la semana.
@@ -1369,7 +1369,7 @@ class WorkTableSeeder extends Seeder
 									las dieciocho horas de un mismo día.
 									Trabajo nocturno es el que se ejecuta entre las
 									dieciocho horas de un día y las seis horas del día
-									siguiente.
+									siguiente.<br>
 									La labor diurna normal semanal será de cuarenta
 									y cinco horas de trabajo efectivo, equivalente a
 									cuarenta y ocho horas para los efectos exclusivos del
@@ -1380,12 +1380,299 @@ class WorkTableSeeder extends Seeder
 									y ocho horas de trabajo efectivo, salvo costumbre
 									más favorable al trabajador. Pero esta excepción no
 									debe extenderse a las empresas agrícolas donde
-									trabajen quinientos o más trabajadores.',										
+									trabajen quinientos o más trabajadores.',
                		'comment'=>'<strong>Primer Parrafo: </strong>Definición de jornada de trabajo<br>
-               					<strong>Segundo Parrafo: </strong>Clasificación de las jornadas de trabajo.
-               					<strong>Tercer Parrafo: </strong>Tiempo de trabajo efectivo..'),
+               					<strong>Segundo Parrafo: </strong>Clasificación de las jornadas de trabajo.<br>
+               					<strong>Tercer Parrafo: </strong>Tiempo de trabajo efectivo.'),
 
-         	
+			 array( 'number'=>'Articulo 117',
+			 		'begin'=>'La jornada ordinaria de trabajo
+									efectivo mixto no puede ser mayor de siete horas
+									diarias ni exceder de un total de cuarenta y dos
+									horas a la semana.
+									Jornada mixta es la que se ejecuta durante un
+									tiempo que abarca parte del período diurno y parte
+									del período nocturno
+									No obstante, se entiende por jornada nocturna la
+									jornada mixta en que se laboren cuatro o más horas
+									durante el período nocturno.',
+					'description'=>'La jornada ordinaria de trabajo
+									efectivo mixto no puede ser mayor de siete horas
+									diarias ni exceder de un total de cuarenta y dos
+									horas a la semana.
+									Jornada mixta es la que se ejecuta durante un
+									tiempo que abarca parte del período diurno y parte
+									del período nocturno
+									No obstante, se entiende por jornada nocturna la
+									jornada mixta en que se laboren cuatro o más horas
+									durante el período nocturno.',
+               		'comment'=>'Jornada Mixta'),
+
+			 array( 'number'=>'Articulo 119',
+			 		'begin'=>'La jornada ordinaria de trabajo
+									puede ser continua o dividirse en dos o más
+									períodos con intervalos de descansos que se
+									adopten racionalmente a la naturaleza del trabajo
+									de que se trate y a las necesidades del trabajador.
+									Siempre que se pacte una jornada ordinaria
+									continua, el trabajador tiene derecho a un descanso
+									mínimo de media hora dentro de esa jornada el que
+									debe computarse como tiempo de trabajo efectivo.',
+					'description'=>'La jornada ordinaria de trabajo
+									puede ser continua o dividirse en dos o más
+									períodos con intervalos de descansos que se
+									adopten racionalmente a la naturaleza del trabajo
+									de que se trate y a las necesidades del trabajador.<br>
+									Siempre que se pacte una jornada ordinaria
+									continua, el trabajador tiene derecho a un descanso
+									mínimo de media hora dentro de esa jornada el que
+									debe computarse como tiempo de trabajo efectivo.',
+               		'comment'=>'Tipos de jornadas. Continua, discontinua '),
+
+			 array( 'number'=>'Articulo 121',
+			 		'begin'=>'El trabajo efectivo que se ejecute
+									fuera de los límites de tiempo que determinan los
+									Artículos anteriores para la jornada de ordinaria, o
+									que exceda del límite inferior que contractualmente
+									se pacte, constituye jornada extraordinaria y debe
+									ser remunerada por lo menos con un cincuenta
+									por ciento más de los salarios mínimos o de los
+									salarios superiores a estos que hayan estipulado
+									las partes.
+									No se consideran horas extraordinarias las que el
+									trabajador ocupe en subsanar los errores imputables
+									sólo a él cometidos durante la jornada ordinaria, ni
+									las que sean consecuencia de su falta de actividad
+									durante tal jornada, siempre que esto último le sea
+									imputable.',
+					'description'=>'El trabajo efectivo que se ejecute
+									fuera de los límites de tiempo que determinan los
+									Artículos anteriores para la jornada de ordinaria, o
+									que exceda del límite inferior que contractualmente
+									se pacte, constituye jornada extraordinaria y debe
+									ser remunerada por lo menos con un cincuenta
+									por ciento más de los salarios mínimos o de los
+									salarios superiores a estos que hayan estipulado
+									las partes.
+									No se consideran horas extraordinarias las que el
+									trabajador ocupe en subsanar los errores imputables
+									sólo a él cometidos durante la jornada ordinaria, ni
+									las que sean consecuencia de su falta de actividad
+									durante tal jornada, siempre que esto último le sea
+									imputable.',
+               		'comment'=>'Jornada Extraordinaria.'),
+
+			 array( 'number'=>'Articulo 126',
+			 		'begin'=>'Todo trabajador tiene derecho
+									a disfrutar de un día de descanso remunerado
+									después de cada semana de trabajo. La semana se
+									computará de cinco a seis días según, costumbre
+									en la empresa o centro de trabajo.
+									A quienes laboran por unidad de obra o por',
+					'description'=>'Todo trabajador tiene derecho
+									a disfrutar de un día de descanso remunerado
+									después de cada semana de trabajo. La semana se
+									computará de cinco a seis días según, costumbre
+									en la empresa o centro de trabajo.<br>
+									A quienes laboran por unidad de obra o por
+									comisión, se les adicionará una sexta parte de los
+									salarios totales devengados en la semana.
+									Para establecer el número de días laborados
+									de quienes laboran por unidad de tiempo, serán
+									aplicadas las reglas de los incisos c) y d) del Artículo
+									82.',
+               		'comment'=>'Clasificación de los descansos
+								1. Diario articulo 126.'),
+
+			 array( 'number'=>'Articulo 127',
+			 		'begin'=>'Son días de asueto con goce de
+									salario para los trabajadores particulares: el 1o.
+									de enero; el Jueves, Viernes y Sábado Santos; el
+									1o. de mayo, el 30 de junio, el 15 de septiembre,
+									el 20 de octubre, el 1o. de noviembre, el 24 de
+									diciembre, mediodía, a partir de las doce horas, el
+									25 de diciembre, el 31 de diciembre, mediodía, a
+									partir de las doce horas, y el día de la festividad de
+									la localidad.
+									El patrono esta obligado a pagar el día de descanso
+									semanal, aún cuando en una misma semana
+									coincidan uno o más días de asueto, y así mismo
+									cuando coincidan un día de asueto pagado y un día
+									de descanso semanal.',
+					'description'=>'Son días de asueto con goce de
+									salario para los trabajadores particulares: el 1o.
+									de enero; el Jueves, Viernes y Sábado Santos; el
+									1o. de mayo, el 30 de junio, el 15 de septiembre,
+									el 20 de octubre, el 1o. de noviembre, el 24 de
+									diciembre, mediodía, a partir de las doce horas, el
+									25 de diciembre, el 31 de diciembre, mediodía, a
+									partir de las doce horas, y el día de la festividad de
+									la localidad.<br>
+									El patrono esta obligado a pagar el día de descanso
+									semanal, aún cuando en una misma semana
+									coincidan uno o más días de asueto, y así mismo
+									cuando coincidan un día de asueto pagado y un día
+									de descanso semanal.',
+               		'comment'=>''),
+
+			 array( 'number'=>'Articulo 129',
+			 		'begin'=>'El pago de los días de descanso
+									semanal o de los días de asueto se debe hacer
+									de acuerdo con el promedio diario de salarios
+									ordinarios y extraordinarios que haya devengado el
+									trabajador durante la semana inmediata anterior al
+									descanso o asueto de que se trate.
+									Es entendido que cuando el salario se estipule por
+									quincena o por mes, incluye en forma implícita el
+									pago de los días de descanso semanal o de los
+									días de asueto que no se trabajen.
+									En el caso del párrafo anterior, si dichos días
+									se trabajan, el pago de los mismos debe
+									hacerse computando el tiempo trabajado como
+									extraordinario, de conformidad con los salarios
+									ordinarios y extraordinarios que haya devengado el
+									trabajador durante la última quincena o mes, según
+									corresponda.',
+					'description'=>'El pago de los días de descanso
+									semanal o de los días de asueto se debe hacer
+									de acuerdo con el promedio diario de salarios
+									ordinarios y extraordinarios que haya devengado el
+									trabajador durante la semana inmediata anterior al
+									descanso o asueto de que se trate.<br>
+									Es entendido que cuando el salario se estipule por
+									quincena o por mes, incluye en forma implícita el
+									pago de los días de descanso semanal o de los
+									días de asueto que no se trabajen.<br>
+									En el caso del párrafo anterior, si dichos días
+									se trabajan, el pago de los mismos debe
+									hacerse computando el tiempo trabajado como
+									extraordinario, de conformidad con los salarios
+									ordinarios y extraordinarios que haya devengado el
+									trabajador durante la última quincena o mes, según
+									corresponda.',
+               		'comment'=>'Descanso Semanal'),
+
+			 array( 'number'=>'Articulo 130',
+			 		'begin'=>'Todo trabajador sin excepción, tiene
+    								derecho a un período de vacaciones remuneradas',
+					'description'=>'Todo trabajador sin excepción, tiene
+									derecho a un período de vacaciones remuneradas
+									después de cada año de trabajo continuo al servicio
+									de un mismo patrono, cuya duración mínima es de
+									quince días hábiles. El hecho de la continuidad del
+									trabajo se determina conforme a las reglas de los
+									incisos c) y d) del Artículo 82.',
+               		'comment'=>'Descanso Semanal'),
+
+        array( 'number'=>'Articulo 131',
+ 			 		'begin'=>'Para que el trabajador tenga
+                          derecho a vacaciones, aunque el contrato no le
+                          exija trabajar todas las horas de la jornada ordinaria
+                          ni todos los días de la semana, deberá tener un
+                          minino de ciento cincuenta (150) días trabajados
+                          en el año. Se computarán como trabajados los días
+                          en que el trabajador no preste servicios por gozar
+                          de licencia retribuida, establecida por este Código
+                          o por Pacto Colectivo, por enfermedad profesional,
+                          enfermedad común o por accidente de trabajo.',
+ 					'description'=>'Para que el trabajador tenga
+                          derecho a vacaciones, aunque el contrato no le
+                          exija trabajar todas las horas de la jornada ordinaria
+                          ni todos los días de la semana, deberá tener un
+                          minino de ciento cincuenta (150) días trabajados
+                          en el año. Se computarán como trabajados los días
+                          en que el trabajador no preste servicios por gozar
+                          de licencia retribuida, establecida por este Código
+                          o por Pacto Colectivo, por enfermedad profesional,
+                          enfermedad común o por accidente de trabajo.',
+            'comment'=>'Derecho a gozar de vacaciones'),
+
+        array( 'number'=>'Articulo 132',
+ 			 		'begin'=>'El patrono debe señalar al
+                          trabajador la época en que dentro de los sesenta
+                          días siguientes a aquél en que se cumplió el año
+                          de servicio continuo, debe gozar efectivamente de
+                          sus vacaciones. A ese efecto, debe tratar de que
+                          no se altere la buena marcha de la empresa ni la
+                          efectividad del descanso, así como evitar que se
+                          recargue el trabajo de los compañeros de labores
+                          del que está disfrutando de sus vacaciones.',
+ 					'description'=>'El patrono debe señalar al
+                          trabajador la época en que dentro de los sesenta
+                          días siguientes a aquél en que se cumplió el año
+                          de servicio continuo, debe gozar efectivamente de
+                          sus vacaciones. A ese efecto, debe tratar de que
+                          no se altere la buena marcha de la empresa ni la
+                          efectividad del descanso, así como evitar que se
+                          recargue el trabajo de los compañeros de labores
+                          del que está disfrutando de sus vacaciones.',
+            'comment'=>'Derecho a gozar de vacaciones'),
+
+
+
+        array( 'number'=>'Articulo 133',
+ 			 		'begin'=>'Las vacaciones no son
+                          compensables en dinero, salvo cuando el trabajador
+                          que haya adquirido el derecho a gozarlas no las
+                          haya disfrutado por cesar en su trabajo cualquiera
+                          que sea la causa. Se prohíbe al trabajador prestar
+                          sus servicios a cualquier persona durante el período
+                          de vacaciones.
+                          Cuando el trabajador cese en su trabajo cualquiera
+                          que sea la causa, antes de cumplir un año de
+                          servicios continuos, o antes de adquirir el derecho
+                          a un nuevo período, el patrono debe compensarle
+                          en dinero la parte proporcional de sus vacaciones
+                          de acuerdo con su tiempo de servicio.',
+ 					'description'=>'Las vacaciones no son
+                          compensables en dinero, salvo cuando el trabajador
+                          que haya adquirido el derecho a gozarlas no las
+                          haya disfrutado por cesar en su trabajo cualquiera
+                          que sea la causa. Se prohíbe al trabajador prestar
+                          sus servicios a cualquier persona durante el período
+                          de vacaciones.
+                          Cuando el trabajador cese en su trabajo cualquiera
+                          que sea la causa, antes de cumplir un año de
+                          servicios continuos, o antes de adquirir el derecho
+                          a un nuevo período, el patrono debe compensarle
+                          en dinero la parte proporcional de sus vacaciones
+                          de acuerdo con su tiempo de servicio.',
+            'comment'=>'Vacaciones incompensables. '),
+
+        array( 'number'=>'Articulo 136',
+ 			 		'begin'=>'Los trabajadores deben gozar
+                        sin interrupciones de su período de vacaciones
+                        y sólo están obligados a dividirlas en dos partes
+                        como máximo, cuando se trate de labores de
+                        índole especial que no permitan una ausencia muy
+                        prolongada.
+                        Los trabajadores deben de gozar sin interrupciones
+                        de su período de vacaciones. Las vacaciones no son
+                        acumulables de año en año con el objeto de disfrutar
+                        posteriormente de un período de descanso mayor,
+                        pero el trabajador a la terminación del contrato
+                        puede reclamar la compensación en efectivo de
+                        las que se les hayan omitido correspondiente a los
+                        cinco (5) últimos años.',
+ 					'description'=>'Los trabajadores deben gozar
+                        sin interrupciones de su período de vacaciones
+                        y sólo están obligados a dividirlas en dos partes
+                        como máximo, cuando se trate de labores de
+                        índole especial que no permitan una ausencia muy
+                        prolongada.
+                        Los trabajadores deben de gozar sin interrupciones
+                        de su período de vacaciones. Las vacaciones no son
+                        acumulables de año en año con el objeto de disfrutar
+                        posteriormente de un período de descanso mayor,
+                        pero el trabajador a la terminación del contrato
+                        puede reclamar la compensación en efectivo de
+                        las que se les hayan omitido correspondiente a los
+                        cinco (5) últimos años.',
+            'comment'=>'Vacaciones incompensables. '),
+
+
+
+
 
 
 
