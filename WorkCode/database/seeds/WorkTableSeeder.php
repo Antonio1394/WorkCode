@@ -1199,19 +1199,76 @@ class WorkTableSeeder extends Seeder
 									autoridad de trabajo.',										
                		'comment'=>'Obligación de pagar directamente el salario al trabajador o familiar.'),
 
+			 array( 'number'=>'Articulo 95',
+			 		'begin'=>'Salvo convenio escrito en contrario,
+									el pago del salario debe hacerse en el propio lugar
+									donde los trabajadores presten sus servicios y
+									durante las horas de trabajo o inmediatamente
+									después de que éstas concluyan.
+									Se prohíbe pagar el salario en lugares de recreo,
+									expendios comerciales o de bebidas alcohólicas u
+									otros análogos, salvo que se trate de trabajadores
+									que laboren en esa clase de establecimientos.',
+             		'description'=>'Salvo convenio escrito en contrario,
+									el pago del salario debe hacerse en el propio lugar
+									donde los trabajadores presten sus servicios y
+									durante las horas de trabajo o inmediatamente
+									después de que éstas concluyan.
+									Se prohíbe pagar el salario en lugares de recreo,
+									expendios comerciales o de bebidas alcohólicas u
+									otros análogos, salvo que se trate de trabajadores
+									que laboren en esa clase de establecimientos.',										
+               		'comment'=>'Obligación de pagar el salario en el lugar de trabajo.'),
 
+			 array( 'number'=>'Articulo 96',
+			 		'begin'=>'Se declaran inembargables:
+									a) Los salarios mínimos y los que sin serlo no
+									excedan de treinta quetzales al mes;
+									b) El noventa por ciento de los salarios mayores
+									de treinta quetzales o más, pero menores de cien
+									quetzales al mes;
+									c) El ochenta y cinco por ciento de los salarios de
+									cien quetzales o más, pero menores de doscientos
+									quetzales al mes;
+									d) El ochenta por ciento de los salarios de doscientos
+									quetzales o más, pero menores de trescientos
+									quetzales al mes; y
+									e) El sesenta y cinco por ciento de los salarios',
+             		'description'=>'Se declaran inembargables:<br>
+									a) Los salarios mínimos y los que sin serlo no
+									excedan de treinta quetzales al mes;<br>
+									b) El noventa por ciento de los salarios mayores
+									de treinta quetzales o más, pero menores de cien
+									quetzales al mes;<br>
+									c) El ochenta y cinco por ciento de los salarios de
+									cien quetzales o más, pero menores de doscientos
+									quetzales al mes;<br>
+									d) El ochenta por ciento de los salarios de doscientos
+									quetzales o más, pero menores de trescientos
+									quetzales al mes; y<br>
+									e) El sesenta y cinco por ciento de los salarios
+									mensuales de trescientos quetzales o más.',										
+               		'comment'=>'Medidas Protectoras del salario
+					1. Invargabilidad del salario. ver articulo 102 literal e de la constitución política de Guatemala'),
 
+			 array( 'number'=>'Articulo 98',
+			 		'begin'=>'Como protección adicional del
+									salario se declaran también inembargables los
+									instrumentos, herramientas o útiles del trabajador
+									que sean indispensables para ejercer su profesión
+									u oficio, salvo que se trate de satisfacer deudas
+									emanadas únicamente de la adquisición a crédito
+									de los mismos.',
+             		'description'=>'Como protección adicional del
+									salario se declaran también inembargables los
+									instrumentos, herramientas o útiles del trabajador
+									que sean indispensables para ejercer su profesión
+									u oficio, salvo que se trate de satisfacer deudas
+									emanadas únicamente de la adquisición a crédito
+									de los mismos.',										
+               		'comment'=>'inemvargalidad de herramientas de trabajo.'),
 
-
-
-
-
-
-
-
-
-			
-			              	
+         	
 
 
 
