@@ -1268,6 +1268,123 @@ class WorkTableSeeder extends Seeder
 									de los mismos.',										
                		'comment'=>'inemvargalidad de herramientas de trabajo.'),
 
+			 array( 'number'=>'Articulo 102',
+			 		'begin'=>'Todo patrono que ocupe
+									permanentemente a diez o más trabajadores, debe
+									llevar un libro de salarios autorizado y sellado por
+									el Departamento Administrativo del Ministerio de
+									Trabajo y Previsión Social61 el que está obligado
+									a suministrar modelos y normas para su debida
+									impresión.
+									Todo patrono que ocupe permanentemente a tres o
+									más trabajadores, sin llegar al límite de diez, debe
+									llevar planillas de conformidad con los modelos
+									que adopte el Instituto Guatemalteco de Seguridad
+									Social.',
+             		'description'=>'Todo patrono que ocupe
+									permanentemente a diez o más trabajadores, debe
+									llevar un libro de salarios autorizado y sellado por
+									el Departamento Administrativo del Ministerio de
+									Trabajo y Previsión Social61 el que está obligado
+									a suministrar modelos y normas para su debida
+									impresión.
+									Todo patrono que ocupe permanentemente a tres o
+									más trabajadores, sin llegar al límite de diez, debe
+									llevar planillas de conformidad con los modelos
+									que adopte el Instituto Guatemalteco de Seguridad
+									Social.',										
+               		'comment'=>'Libro de pago de salario.'),
+
+			  array( 'number'=>'Articulo 105',
+			 		'begin'=>'Adscrita al Ministerio de Trabajo
+									y Previsión Social habrá una Comisión Nacional
+									del Salario, organismo técnico y consultivo de las
+									comisiones paritarias, encargada de asesorar a
+									dicho ministerio en la política general del salario.
+									En cada departamento o en cada circunscripción
+									económica que determine el Organismo Ejecutivo,
+									mediante acuerdo emanado por conducto del
+									Ministerio de Trabajo y Previsión Social, debe haber
+									una comisión paritaria de salarios mínimos integrada
+									por dos patronos e igual número de trabajadores',
+             		'description'=>'Adscrita al Ministerio de Trabajo
+									y Previsión Social habrá una Comisión Nacional
+									del Salario, organismo técnico y consultivo de las
+									comisiones paritarias, encargada de asesorar a
+									dicho ministerio en la política general del salario.
+									En cada departamento o en cada circunscripción
+									económica que determine el Organismo Ejecutivo,
+									mediante acuerdo emanado por conducto del
+									Ministerio de Trabajo y Previsión Social, debe haber
+									una comisión paritaria de salarios mínimos integrada
+									por dos patronos e igual número de trabajadores
+									sindicalizados y por un inspector de trabajo, a cuyo
+									cargo corre la presidencia de la misma.
+									Además, el Organismo Ejecutivo, mediante acuerdo
+									emanado por el conducto expresado, puede crear
+									comisiones paritarias de salarios mínimos para cada
+									actividad intelectual, industrial, comercial, ganadera
+									o agrícola, con jurisdicción en todo el país o en
+									parte de él; y también para empresas determinadas
+									que comprueben tener actividad en diversos
+									departamentos o circunscripciones económicas y
+									un número de trabajadores no menor de mil, en
+									cuyo caso la jurisdicción de las comisiones se limita
+									a la empresa de que se trate.
+									Igualmente queda facultado el Organismo
+									Ejecutivo para aumentar el número de patronos y
+									de trabajadores que han de integrar una o varias
+									comisiones paritarias de salarios mínimos, siempre
+									que la importancia del cometido de éstas así lo
+									exija63.
+									El Organismo Ejecutivo por conducto del Ministerio
+									de Trabajo y Previsión Social, mediante acuerdo,
+									dictará el reglamento que regule la organización
+									y el funcionamiento de la Comisión Nacional del
+									Salario y de las comisiones paritarias de salarios
+									mínimos.',										
+               		'comment'=>'Órganos que fijan el salario mínimo:
+								1. comisión nacional el salario,<br>
+								2. comisión paritaria de salarios mínimos<br>
+								3. el presidente de la república'),
+
+			   array( 'number'=>'Articulo 116',
+			 		'begin'=>'La jornada ordinaria de trabajo
+									efectivo diurno no puede ser mayor de ocho horas
+									diarias, ni exceder de un total de cuarenta y ocho
+									horas a la semana.
+									La jornada ordinaria de trabajo efectivo nocturno no
+									puede ser mayor de seis horas diarias, ni exceder
+									de un total de treinta y seis horas a la semana.',
+					'description'=>'La jornada ordinaria de trabajo
+									efectivo diurno no puede ser mayor de ocho horas
+									diarias, ni exceder de un total de cuarenta y ocho
+									horas a la semana.
+									La jornada ordinaria de trabajo efectivo nocturno no
+									puede ser mayor de seis horas diarias, ni exceder
+									de un total de treinta y seis horas a la semana.
+									Tiempo de trabajo efectivo es aquél en que el
+									trabajador permanezca a las órdenes del patrono.
+									Trabajo diurno es el que se ejecuta entre las seis y
+									las dieciocho horas de un mismo día.
+									Trabajo nocturno es el que se ejecuta entre las
+									dieciocho horas de un día y las seis horas del día
+									siguiente.
+									La labor diurna normal semanal será de cuarenta
+									y cinco horas de trabajo efectivo, equivalente a
+									cuarenta y ocho horas para los efectos exclusivos del
+									pago de salario. Se exceptúan de esta disposición,
+									los trabajadores agrícolas y ganaderos y los de las
+									empresas donde labore un número menor de diez,
+									cuya labor diurna normal semanal será de cuarenta
+									y ocho horas de trabajo efectivo, salvo costumbre
+									más favorable al trabajador. Pero esta excepción no
+									debe extenderse a las empresas agrícolas donde
+									trabajen quinientos o más trabajadores.',										
+               		'comment'=>'<strong>Primer Parrafo: </strong>Definición de jornada de trabajo<br>
+               					<strong>Segundo Parrafo: </strong>Clasificación de las jornadas de trabajo.
+               					<strong>Tercer Parrafo: </strong>Tiempo de trabajo efectivo..'),
+
          	
 
 
