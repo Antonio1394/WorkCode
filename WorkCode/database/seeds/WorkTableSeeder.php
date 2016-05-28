@@ -1464,11 +1464,7 @@ class WorkTableSeeder extends Seeder
 
 			 array( 'number'=>'Articulo 126',
 			 		'begin'=>'Todo trabajador tiene derecho
-									a disfrutar de un día de descanso remunerado
-									después de cada semana de trabajo. La semana se
-									computará de cinco a seis días según, costumbre
-									en la empresa o centro de trabajo.
-									A quienes laboran por unidad de obra o por',
+									a disfrutar de un día de descanso remunerado',
 					'description'=>'Todo trabajador tiene derecho
 									a disfrutar de un día de descanso remunerado
 									después de cada semana de trabajo. La semana se
